@@ -47,11 +47,23 @@ h1 {
     letter-spacing: 3px;
     color: brown;
 }
+
 /* Main body */
 main {
     background-color: red;
     /* Make main element push footer down the page */
     flex: 1 0 auto;
+}
+
+/* Menu styling */
+#menu {
+    text-decoration: none;
+    letter-spacing: 2px;
+    list-style: none;
+}
+
+#menu > li {
+    margin-bottom: .5em;
 }
 
 /* Footer */
