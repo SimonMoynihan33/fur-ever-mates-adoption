@@ -48,7 +48,7 @@ header a {
 
 h1 {
     letter-spacing: 3px;
-    color: brown;
+    color: #000;
 }
 
 /* Main body */
@@ -69,6 +69,10 @@ main {
 
 #menu > li {
     margin-bottom: .5em;
+}
+
+.red-text {
+    color: #ff0000;
 }
 
 .active {
@@ -116,10 +120,15 @@ nav {
     box-shadow: none;
     width: fit-content;
     font-size: .8rem;
-    padding-right 2px
 }
+
 #menu {
     display: flex;
 }
+
+#menu > li {
+    padding-left: .8rem;
+}
+
 }
 
