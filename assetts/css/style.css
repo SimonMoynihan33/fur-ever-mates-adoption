@@ -66,6 +66,10 @@ main {
     margin-bottom: .5em;
 }
 
+.active {
+    border-bottom: 1px solid #aaa;
+}
+
 /* Footer */
 footer {
     background-color: orange;
