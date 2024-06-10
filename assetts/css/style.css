@@ -130,5 +130,9 @@ nav {
     padding-left: .8rem;
 }
 
+.nav-toggle-label {
+    display: none;
+}
+
 }
 
