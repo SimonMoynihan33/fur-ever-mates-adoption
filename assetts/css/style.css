@@ -60,7 +60,7 @@ main {
     text-decoration: none;
     letter-spacing: 2px;
     list-style: none;
-    font-size: 120%;
+    font-size: 200%;
 }
 
 #menu > li {
@@ -75,11 +75,10 @@ main {
 nav { 
     position: absolute;
     background-color: #ffffff;
-    display: none;
+    display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 40vh;
     left: 0;
-    justify-content: center;
     padding-right: 25px;
     padding-top: .5rem;
     box-shadow: 0 3px 3px #3a3a3a;
