@@ -41,6 +41,10 @@ header {
     align-items: baseline;
 }
 
+strong {
+    color: #ff0000;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -135,5 +139,12 @@ nav {
     display: none;
 }
 
+#logo {
+    line-height: 90px;
+}
+
+main {
+    margin-top: 90px;
+}
 }
 
