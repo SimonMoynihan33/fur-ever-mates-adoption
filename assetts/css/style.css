@@ -58,7 +58,7 @@ h1 {
 
 /* Main body */
 main {
-    background-color: red;
+    background-color: #ffffff;
     /* Make main element push footer down the page */
     flex: 1 0 auto;
     margin-top: 50px;
@@ -114,7 +114,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #ff0000;
 }
 
 /* Media query for tablets (768px and up) */
