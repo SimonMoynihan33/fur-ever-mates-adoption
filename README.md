@@ -75,6 +75,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Nav skeleton was taken from Love Running project.
 - Nav toggle and dropdown was created while watching Love Running walkthrough
 - Readme template was used from Love Running Readme.
+- Used love running to format the underline when hovering over an item in the menu
 
 ### Content 
 

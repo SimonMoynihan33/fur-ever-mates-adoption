@@ -41,6 +41,7 @@ header {
     align-items: baseline;
 }
 
+/* Color for 'Ever' in logo */
 strong {
     color: #ff0000;
 }
@@ -75,6 +76,7 @@ main {
     margin-bottom: .5em;
 }
 
+/* Color for menu items */
 .red-text {
     color: #ff0000;
 }
@@ -143,6 +145,7 @@ nav {
     line-height: 90px;
 }
 
+/* Push main down to be below header */
 main {
     margin-top: 90px;
 }
