@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Sedan+SC&display=swap');
+
 /* Asterik selector to override default styles */
 * {
     padding: 0;
@@ -19,7 +22,7 @@ header {
 
 /* Main body */
 main {
-    background-color: yellow;
+    background-color: red;
     /* Make main element push footer down the page */
     flex: 1 0 auto;
 }
