@@ -38,6 +38,15 @@ header {
     box-shadow: 0 3px 3px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    letter-spacing: 3px;
+    color: brown;
+}
 /* Main body */
 main {
     background-color: red;
