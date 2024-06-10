@@ -1,6 +1,19 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Sedan+SC&display=swap');
+/* Fonts */
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+  .indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
 /* Asterik selector to override default styles */
 * {
     padding: 0;
