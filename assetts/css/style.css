@@ -125,16 +125,23 @@ main {
     color: #afaeae
 }
 
+#testimonial-style {
+    display: flex;
+}
+
 #testimonials h2 {
     font-size: 200%;
     text-transform: uppercase;
     text-align: center;
 }
 
-#testimonials br {
+#testimonials hr {
     border-bottom: 1px solid #afaeae;
 }
 
+#test-one {
+    background: url("../images/pexels-sherissa-r-704096.jpg") no-repeat top center/cover
+}
 /* Menu styling */
 #menu {
     text-decoration: none;
