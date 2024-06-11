@@ -73,7 +73,7 @@ main {
 
 #cover-text {
     font-size: .8em;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-right: 15px;
     font-family: "Indie Flower", cursive;
     display: flex;
@@ -82,6 +82,14 @@ main {
 
 .alt-display {
     display: none;
+}
+
+#introduction p {
+    font-size: 1.2rem;
+}
+
+h2 {
+    text-align: center;
 }
 
 /* Menu styling */
@@ -190,6 +198,12 @@ nav {
 /* Push main down to be below header */
 main {
     margin-top: 90px;
+}
+
+/* Cover text responsivity */
+#cover-text {
+    font-size: 1.5em;
+    padding-top: 30px;
 }
 }
 
