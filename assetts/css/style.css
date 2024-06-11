@@ -118,6 +118,23 @@ main {
     max-height: 300px;
 }
 
+/* Testimonials Section */
+#testimonials {
+    height: 50vh;
+    background-color: #101111;
+    color: #afaeae
+}
+
+#testimonials h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#testimonials br {
+    border-bottom: 1px solid #afaeae;
+}
+
 /* Menu styling */
 #menu {
     text-decoration: none;
@@ -233,41 +250,50 @@ main {
 }
 
 /* Introduction */
-/*#introduction {
-    display: flex;
-}
+    /* Introduction */
+    #home-intro {
+        padding: 20px
+    }
 
-#introduction > div {
-    flex: 1;
-}
+    #intro-image {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-#intro-image {
-    order: 1;
-}
-
-#text-right {
-    order: 2;
-}
-
-#text-right div {
-    align-self: flex-end;
-}
-
-#text-left div {
-    align-self: flex-start;
-}
-
-#text-right {
-    width: 25vw;
-}
-
-#text-left {
-    width: 25vw;
-}
-
-#intro-image {
-    width: 20vw;
-}**/
+    #home-intro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #home-intro > div {
+        flex: 1;
+    }
+    
+    #intro-image {
+        order: 0;
+    }
+    
+    #text-right {
+        order: 1;
+    }
+    
+    #text-right div {
+        align-self: flex-end;
+    }
+    
+    #text-left div {
+        align-self: flex-start;
+    }
+    
+    #text-right {
+        width: 25vw;
+    }
+    
+    #text-left {
+        width: 25vw;
+    }
+    
 
 }
 
@@ -277,43 +303,6 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Introduction */
-#home-intro {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-#home-intro > div {
-    flex: 1;
-}
-
-#intro-image {
-    order: 0;
-}
-
-#text-right {
-    order: 1;
-}
-
-#text-right div {
-    align-self: flex-end;
-}
-
-#text-left div {
-    align-self: flex-start;
-}
-
-#text-right {
-    width: 25vw;
-}
-
-#text-left {
-    width: 25vw;
-}
-
-#intro-image {
-    width: 20vw;
-}
 
 }
