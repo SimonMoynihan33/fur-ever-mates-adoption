@@ -236,7 +236,33 @@ main {
 /* Introduction */
 #introduction {
     display: flex;
-    flex-direction: row;
-}
 }
 
+#introduction > div {
+    flex: 1;
+}
+
+#intro-image > div {
+    order: 0;
+}
+
+#text-right > div {
+    order: 1;
+}
+
+#text-right > div {
+    align-self: flex-start;
+}
+
+#text-left > div {
+    align-self: flex-end;
+}
+
+}
+
+/* Large devices (laptop and larger 992px and up) */
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
