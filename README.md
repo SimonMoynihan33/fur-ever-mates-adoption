@@ -79,8 +79,8 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Hero Image URL ("https://www.pexels.com/photo/black-and-white-short-coated-dogs-3628100/"). By Edgar Daniel Hernández Cervantes.
 - Circular image on home screen URL ("https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/"). By Johann.
 -First Testimonial image URL ("https://www.pexels.com/photo/white-and-brown-dogs-on-green-meadows-704096/"). By Sherissa R.
--Second Testimonial image URL ("")
--Third Testimonial image URL ("")
+-Second Testimonial image URL ("https://www.pexels.com/photo/woman-sitting-with-dogs-on-grass-20584832/"). By Ana María Franco Arias.
+-Third Testimonial image URL ("https://www.pexels.com/photo/a-women-running-with-dogs-on-a-beach-14397066/"). By David Levinson.
 
 ### Content 
 

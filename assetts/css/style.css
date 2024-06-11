@@ -120,6 +120,7 @@ main {
 
 /* Testimonials Section */
 #testimonials {
+    height: 880px;
     background-color: #101111;
     color: #afaeae
 }
@@ -128,11 +129,30 @@ main {
     background: url("../images/pexels-sherissa-r-704096.jpg") no-repeat top center/cover;
     height: 80vw;
     width: 80vw;
-    margin: 20px auto;
-    /* Changes square image to circle */
+    margin: 30px auto;
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#testimonial-img2 {
+    background: url("../images/pexels-ana-maria-franco-arias-1072607979-20584832.jpg") no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin: 30px auto;
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#testimonial-img3 {
+    background: url("../images/pexels-david-levinson-331488832-14397066.jpg") no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin: 30px auto;
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #testimonials h2 {
