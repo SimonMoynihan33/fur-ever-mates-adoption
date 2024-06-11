@@ -63,15 +63,24 @@ main {
     margin-top: 50px;
 }
 
+/* Hero Section */
 #hero-image {
     width: 100%;
     height: 600px;
+    background-color: aqua;
     background: url("../images/pexels-edd1egalaxy-3628100.jpg") no-repeat center center/cover;
-    z-index: 1;
+}
+
+#cover-text {
+    font-size: 2em;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-family: "Indie Flower", cursive;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .alt-display {
-    text-indent: -99;
     display: none;
 }
 
