@@ -84,6 +84,14 @@ main {
     display: none;
 }
 
+/*.text-behind {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}*/
+
 /* Menu styling */
 #menu {
     text-decoration: none;
@@ -136,6 +144,11 @@ nav {
 footer {
     background-color: #ff0000;
     line-height: 50px;
+}
+
+/* Styling for in-text logo */
+em {
+    font-family: "Indie Flower", cursive;
 }
 
 /* Icon Styles */
