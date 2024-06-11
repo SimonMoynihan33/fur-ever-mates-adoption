@@ -48,7 +48,7 @@ header {
     align-items: baseline;
 }
 
-/* Color for 'Ever' in logo */
+/* Logo styles */
 strong {
     color: #ff0000;
 }
@@ -87,16 +87,36 @@ main {
     justify-content: flex-end;
 }
 
+/* Alt text for hero image */
 .alt-display {
     display: none;
 }
 
+/* Intro Heading and paragraphs */
 #introduction p {
     font-size: 1.2rem;
+    text-align: center;
 }
 
-h2 {
+#introduction h2 {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#home-intro h3 {
+    text-align: center;
+}
+
+#circle-cover-bg {
+    background: url("../images/pexels-jagheterjohann-1254140.jpg") no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin: 20px auto;
+    /* Changes square image to circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* Menu styling */
@@ -211,6 +231,12 @@ main {
 #cover-text {
     font-size: 1.5em;
     padding-top: 30px;
+}
+
+/* Introduction */
+#introduction {
+    display: flex;
+    flex-direction: row;
 }
 }
 
