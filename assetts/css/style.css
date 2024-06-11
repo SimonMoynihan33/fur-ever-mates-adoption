@@ -120,13 +120,19 @@ main {
 
 /* Testimonials Section */
 #testimonials {
-    height: 50vh;
     background-color: #101111;
     color: #afaeae
 }
 
-#testimonial-style {
-    display: flex;
+#testimonial-img1 {
+    background: url("../images/pexels-sherissa-r-704096.jpg") no-repeat top center/cover;
+    height: 80vw;
+    width: 80vw;
+    margin: 20px auto;
+    /* Changes square image to circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #testimonials h2 {
@@ -139,9 +145,6 @@ main {
     border-bottom: 1px solid #afaeae;
 }
 
-#test-one {
-    background: url("../images/pexels-sherissa-r-704096.jpg") no-repeat top center/cover
-}
 /* Menu styling */
 #menu {
     text-decoration: none;
@@ -154,13 +157,9 @@ main {
     margin-bottom: .5em;
 }
 
-/* Color for menu items */
-.red-text {
-    color: #ff0000;
-}
-
 .active {
     border-bottom: 1px solid #3a3a3a;
+    color: #ff0000;
 }
 
 /* Navbar dropdown toggle */
@@ -192,7 +191,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #ff0000;
+    background-color: #aeaeae;
     line-height: 50px;
 }
 
