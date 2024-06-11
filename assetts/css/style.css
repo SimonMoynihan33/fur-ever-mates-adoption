@@ -82,7 +82,7 @@ main {
 }
 
 .active {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar dropdown toggle */
@@ -115,6 +115,23 @@ nav {
 /* Footer */
 footer {
     background-color: #ff0000;
+    line-height: 50px;
+}
+
+/* Icon Styles */
+#media {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    list-style-type: none;
+
+}
+
+#media i {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 /* Media query for tablets (768px and up) */
