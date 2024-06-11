@@ -10,7 +10,6 @@
 
   .dm-sans {
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
   }
 
@@ -234,7 +233,7 @@ main {
 }
 
 /* Introduction */
-#introduction {
+/*#introduction {
     display: flex;
 }
 
@@ -242,21 +241,33 @@ main {
     flex: 1;
 }
 
-#intro-image > div {
-    order: 0;
-}
-
-#text-right > div {
+#intro-image {
     order: 1;
 }
 
-#text-right > div {
+#text-right {
+    order: 2;
+}
+
+#text-right div {
+    align-self: flex-end;
+}
+
+#text-left div {
     align-self: flex-start;
 }
 
-#text-left > div {
-    align-self: flex-end;
+#text-right {
+    width: 25vw;
 }
+
+#text-left {
+    width: 25vw;
+}
+
+#intro-image {
+    width: 20vw;
+}**/
 
 }
 
@@ -265,4 +276,44 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Introduction */
+#home-intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#home-intro > div {
+    flex: 1;
+}
+
+#intro-image {
+    order: 0;
+}
+
+#text-right {
+    order: 1;
+}
+
+#text-right div {
+    align-self: flex-end;
+}
+
+#text-left div {
+    align-self: flex-start;
+}
+
+#text-right {
+    width: 25vw;
+}
+
+#text-left {
+    width: 25vw;
+}
+
+#intro-image {
+    width: 20vw;
+}
+
 }
