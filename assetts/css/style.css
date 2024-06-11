@@ -1,9 +1,16 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 /* Fonts */
 .sedan-sc-regular {
     font-family: "Sedan SC", serif;
     font-weight: 400;
+    font-style: normal;
+  }
+
+  .dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
     font-style: normal;
   }
 
