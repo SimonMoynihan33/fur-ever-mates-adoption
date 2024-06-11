@@ -72,8 +72,8 @@ main {
 }
 
 #cover-text {
-    font-size: 2em;
-    padding-top: 10px;
+    font-size: .8em;
+    padding-top: 30px;
     padding-right: 15px;
     font-family: "Indie Flower", cursive;
     display: flex;
@@ -83,14 +83,6 @@ main {
 .alt-display {
     display: none;
 }
-
-/*.text-behind {
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    margin: 20px;
-    padding: 10px;
-}*/
 
 /* Menu styling */
 #menu {
