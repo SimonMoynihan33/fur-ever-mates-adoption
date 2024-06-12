@@ -118,52 +118,6 @@ main {
     max-height: 300px;
 }
 
-/* Testimonials Section 
-#testimonials {
-    background-color: #101111;
-    color: #afaeae
-}
-
-#testimonial-img1 {
-    background: url("../images/pexels-sherissa-r-704096.jpg") no-repeat top center/cover;
-    height: 80vw;
-    width: 80vw;
-    margin: 30px auto;
-    border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
-}
-
-#testimonial-img2 {
-    background: url("../images/pexels-ana-maria-franco-arias-1072607979-20584832.jpg") no-repeat top center/cover;
-    height: 80vw;
-    width: 80vw;
-    margin: 30px auto;
-    border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
-}
-
-#testimonial-img3 {
-    background: url("../images/pexels-david-levinson-331488832-14397066.jpg") no-repeat top center/cover;
-    height: 80vw;
-    width: 80vw;
-    margin: 30px auto;
-    border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
-}
-
-#testimonials h2 {
-    font-size: 200%;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#testimonials hr {
-    border-bottom: 1px solid #afaeae;
-}*/
-
 /* Testimonials */
 .testimonials {
     margin: 0;
@@ -267,7 +221,7 @@ section .heading b{
 }
 
 .wrapper .container .profile h2 {
-    padding: 2px 0;
+    padding: 2px 0px;
     text-transform: capitalize;
     color: #fff;
     letter-spacing: 1px;
@@ -275,7 +229,7 @@ section .heading b{
 }
 
 .wrapper .container p {
-    margin-top: 50px;
+    margin-top: 75px;
     color: #fff;
     padding: 0 8px;
     font-size: 15px;
