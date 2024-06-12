@@ -281,7 +281,7 @@ section .heading b{
     padding-top: 10px;
     border-left: 5px solid #ff0000;
     border-right: 5px solid #ff0000;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .rehome-info > ol {
@@ -293,11 +293,13 @@ section .heading b{
     height: 80vw;
     width: 80vw;
     margin: 20px auto;
-
 }
 
-#rehome-one {
-    display: flex;
+#rehome-two-image {
+    background: url(../images/rehome2.webp) no-repeat center center / cover;
+    height: 60vw;
+    width: 60vw;
+    margin: 20px auto;
 }
 
 #mates-hero {
