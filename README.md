@@ -82,6 +82,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Second Testimonial image URL ("https://images.pexels.com/photos/8498519/pexels-photo-8498519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By "Yaroslav Shuraev".
 - Third Testimonial image URL ("https://images.pexels.com/photos/10369105/pexels-photo-10369105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By "Nine Lives Cats Etc".
 - Testimonials section was created with help of youtube video ("https://www.youtube.com/watch?v=6R_feb4rMnc"). By WebKitCoding.
+- Mates page Hero image URL ("https://images.pexels.com/photos/757920/pexels-photo-757920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Aldo Carrillo.
 
 ### Content 
 

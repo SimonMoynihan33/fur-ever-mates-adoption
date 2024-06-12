@@ -274,14 +274,21 @@ section .heading b{
     height: 100vh;
     background-color: brown;
     background: url("../images/pexels-aldo-carrillo-249561-757920.jpg") no-repeat top center/cover;
+    position: relative;
 }
 
 /* Heading */
-#mates-cover-heading {
-    color: #000000;
+#mates-cover-text {
+    color: #ffffff;
+    font-size: 1.5rem;
+    background-color: rgba(64, 64, 64, .8);
+    position: absolute;
+    bottom: 80px;
+    width: 60%;
+    min-height: 100px;
+    padding: 20 10px;
+    left: 50px;
     text-align: center;
-    border-bottom: 1px solid #ff0000;
-    font-size: 2em;
 }
 
 #rehoming > div {
@@ -356,7 +363,14 @@ em {
     font-size: 1.5rem;
 }
 
-
+/* Media query for (540px and up) */
+/* Make cover text responsive */
+@media screen and (min-width: 540px) {
+    #mates-cover-text {
+        width: 40%;
+        right: 40px;
+    }
+}
 
 /* Media query for tablets (768px and up) */
 @media screen and (min-width: 768px) {
@@ -368,6 +382,11 @@ nav {
     width: fit-content;
     font-size: .8rem;
     height: 10%;
+}
+
+/* Push main down to be below header */
+main {
+    margin-top: 90px;
 }
 
 #menu {
@@ -384,11 +403,6 @@ nav {
 
 #logo {
     line-height: 90px;
-}
-
-/* Push main down to be below header */
-main {
-    margin-top: 90px;
 }
 
 /* Cover text responsivity */
@@ -442,6 +456,12 @@ main {
         width: 25vw;
     }
     
+    /* Mates page */
+    #mates-cover-text {
+        width: 60vw;
+        font-size: 2em;
+        align-items: right;
+    }
 
 }
 
