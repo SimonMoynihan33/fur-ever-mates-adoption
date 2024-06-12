@@ -34,6 +34,11 @@ body {
     flex-direction: column;
 }
 
+/* Styling for in-text logo */
+em {
+    font-family: "Indie Flower", cursive;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -269,6 +274,7 @@ section .heading b{
 
 /* Mates Page */
 /* Mates Hero */
+
 #mates-hero {
     width: 100%;
     height: 100vh;
@@ -295,15 +301,6 @@ section .heading b{
     display: block;
     height: 300px;
 }
-
-.bg-color-one {
-    background: #45413e;
-}
-
-.bg-color-two {
-    background: hsl(60, 56%, 91%);
-}
-
 
 /* Navbar dropdown toggle */
 nav { 
@@ -338,10 +335,6 @@ footer {
     line-height: 50px;
 }
 
-/* Styling for in-text logo */
-em {
-    font-family: "Indie Flower", cursive;
-}
 
 /* Icon Styles */
 #media {
@@ -389,16 +382,16 @@ main {
     margin-top: 90px;
 }
 
+.nav-toggle-label {
+    display: none;
+}
+
 #menu {
     display: flex;
 }
 
 #menu > li {
     padding-left: .8rem;
-}
-
-.nav-toggle-label {
-    display: none;
 }
 
 #logo {
@@ -460,7 +453,6 @@ main {
     #mates-cover-text {
         width: 60vw;
         font-size: 2em;
-        align-items: right;
     }
 
 }
