@@ -274,6 +274,20 @@ section .heading b{
 
 /* Mates Page */
 /* Mates Hero */
+#rehome-one-image {
+    background: url(../images/rehome1.webp) no-repeat center center / cover;
+    height: 80vw;
+    width: 80vw;
+    margin: 20px auto;
+    /* Changes square image to circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#rehome-one {
+    display: flex;
+}
 
 #mates-hero {
     width: 100%;
@@ -299,7 +313,7 @@ section .heading b{
 
 #rehoming > div {
     display: block;
-    height: 300px;
+    height: fit-content;
 }
 
 /* Navbar dropdown toggle */
