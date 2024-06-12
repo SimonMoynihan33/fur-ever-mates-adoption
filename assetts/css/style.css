@@ -112,6 +112,7 @@ main {
     text-align: center;
 }
 
+/* Love Running structure */
 #circle-cover-bg {
     background: url("../images/pexels-jagheterjohann-1254140.jpg") no-repeat top center/cover;
     height: 80vw;
@@ -124,6 +125,7 @@ main {
 }
 
 /* Testimonials */
+/* Youtube tutorial used. Documented in README */
 .testimonials {
     margin: 0;
     padding: 0;
@@ -131,7 +133,7 @@ main {
     box-sizing: border-box;
 }
 
-.testimonials {
+#testimonials {
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -162,7 +164,7 @@ section .heading:before {
     background: rgba(255, 0, 0, .4)
 }
 
-.testimonials:before {
+#testimonials:before {
     position: absolute;
     content: '';
     width: 2000px;
