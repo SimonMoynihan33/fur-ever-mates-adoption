@@ -274,15 +274,26 @@ section .heading b{
 
 /* Mates Page */
 /* Mates Hero */
+.rehome-info {
+    font-size: 1em;
+    text-align: center;
+    margin: 10px 30px;
+    padding-top: 10px;
+    border-left: 5px solid #ff0000;
+    border-right: 5px solid #ff0000;
+    border-radius: 10px;
+}
+
+.rehome-info > ol {
+    list-style-type: none;
+}
+
 #rehome-one-image {
     background: url(../images/rehome1.webp) no-repeat center center / cover;
     height: 80vw;
     width: 80vw;
     margin: 20px auto;
-    /* Changes square image to circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+
 }
 
 #rehome-one {
