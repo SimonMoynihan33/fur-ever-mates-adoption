@@ -1,6 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Sedan+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap');
 /* Fonts */
 .sedan-sc-regular {
     font-family: "Sedan SC", serif;
@@ -17,6 +18,24 @@
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
+  }
+
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
   }
   
   
@@ -120,7 +139,6 @@ main {
 
 /* Testimonials Section */
 #testimonials {
-    height: 880px;
     background-color: #101111;
     color: #afaeae
 }
