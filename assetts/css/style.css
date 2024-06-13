@@ -194,7 +194,6 @@ section .heading b{
     margin: 40px 10px;
     padding: 30px 20px;
     border-radius: 3px;
-    transition: 0.3s ease;
 }
 
 .wrapper .container .profile {
@@ -224,7 +223,6 @@ section .heading b{
     left: 0;
     border-radius: 50%;
     object-fit: cover;
-    transition: 0.3s ease;
 }
 
 .wrapper .container .profile h2 {
@@ -321,8 +319,13 @@ section .heading b{
 }
 
 #rehoming h2 {
+    color: #ffffff;
     text-align: center;
     font-size: 300%;
+}
+
+#rehoming ol {
+    list-style-type: none;
 }
 
 #mates-hero {
