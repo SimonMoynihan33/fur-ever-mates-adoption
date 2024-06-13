@@ -126,7 +126,7 @@ main {
 
 /* Testimonials */
 /* Youtube tutorial used. Documented in README */
-.testimonials {
+#testimonials {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
@@ -276,7 +276,7 @@ section .heading b{
 
 /* Mates Page */
 /* Mates Hero */
-.rehome-info {
+/*.rehome-info {
     font-size: 1em;
     text-align: center;
     margin: 10px 30px;
@@ -302,6 +302,27 @@ section .heading b{
     height: 60vw;
     width: 60vw;
     margin: 20px auto;
+}*/
+
+/* Rehoming new */
+#rehoming {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#rehoming {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: #101111;
+    overflow: hidden;
+}
+
+#rehoming h2 {
+    text-align: center;
+    font-size: 300%;
 }
 
 #mates-hero {
@@ -321,14 +342,9 @@ section .heading b{
     bottom: 80px;
     width: 60%;
     min-height: 100px;
-    padding: 20 10px;
+    padding: 20px 10px;
     left: 50px;
     text-align: center;
-}
-
-#rehoming > div {
-    display: block;
-    height: fit-content;
 }
 
 /* Navbar dropdown toggle */
