@@ -316,20 +316,19 @@ section #rehoming {
 }
 
 .card {
-    width: 250px;
+    width: 280px;
     background-color: #aeaeae;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 20px;
-    text-align: center;
 }
 
 .card img {
     max-width: fit-content;
-    max-height: 60vh;
+    max-height: 40vh;
     text-align: center;
-    transform: translateX(-30%);
+    transform: translateX(-20%);
 }
 
 /* Navbar dropdown toggle */
