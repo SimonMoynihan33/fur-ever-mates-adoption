@@ -84,10 +84,11 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Testimonials section was created with help of youtube video ("https://www.youtube.com/watch?v=6R_feb4rMnc"). By WebKitCoding.
 - Mates page Hero image URL ("https://images.pexels.com/photos/757920/pexels-photo-757920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Aldo Carrillo.
 - Rehome image 1 URL ("https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Kat Smith.
-- Rehome image 2 URL ("https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). Steshka Willems.
+- Rehome image 2 URL ("https://www.pexels.com/photo/black-and-white-siberian-husky-puppy-on-brown-grass-field-3726314/"). By Julissa Helmuth.
 - Rehome 3 https://www.pexels.com/photo/short-coated-tan-dog-2253275/ by Helena Lopez.
 - rehome 4 https://www.pexels.com/photo/dog-running-on-grass-422220/ by Matthias Zomer.
-- 
+- rehome 5 https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/ by summer stock.
+- rehome 6 https://www.pexels.com/photo/pawn-pug-sitting-on-beige-floor-1591939/ by Steshka Willems. 
 
 ### Content 
 
