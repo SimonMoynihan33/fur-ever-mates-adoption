@@ -85,6 +85,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Mates page Hero image URL ("https://images.pexels.com/photos/757920/pexels-photo-757920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Aldo Carrillo.
 - Rehome image 1 URL ("https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Kat Smith.
 - Rehome image 2 URL ("https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). Steshka Willems.
+- Rehome 3 https://www.pexels.com/photo/short-coated-tan-dog-2253275/ by Helena Lopez
 
 ### Content 
 
