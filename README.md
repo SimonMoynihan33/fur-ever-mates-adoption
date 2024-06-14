@@ -89,7 +89,8 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - rehome 4 https://www.pexels.com/photo/dog-running-on-grass-422220/ by Matthias Zomer.
 - rehome 5 https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/ by summer stock.
 - rehome 6 https://www.pexels.com/photo/pawn-pug-sitting-on-beige-floor-1591939/ by Steshka Willems. 
-
+- Rehome section tutorial used: URL ("https://www.youtube.com/watch?v=9FNNkzPBFcE"). By "Learn Web".
+ 
 ### Content 
 
 - The text for the Home page was taken from Wikipedia Article A

@@ -124,6 +124,14 @@ main {
     max-height: 300px;
 }
 
+/* Button to bring user to Rehome page */
+#direct-button {
+    background: #101111;
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+}
+
 /* Testimonials */
 /* Youtube tutorial used. Documented in README */
 #testimonials {
@@ -317,6 +325,7 @@ section #rehoming {
     width: 100%;
 }
 
+/* Tutorial used. Documented in README Rehoming tutorial */
 .card-container {
     display: flex;
     justify-content: center;
