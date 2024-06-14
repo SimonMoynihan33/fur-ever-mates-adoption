@@ -124,12 +124,15 @@ main {
     max-height: 300px;
 }
 
-/* Button to bring user to Rehome page */
+/* Button to bring user to Mates page */
 #direct-button {
-    background: #101111;
-    color: #fff;
-    font-size: 2em;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #101111;
     text-decoration: none;
+    border-radius: 4px;
+    margin: 16px auto 20px 40px;
+    color: #fff;
 }
 
 /* Testimonials */
