@@ -307,6 +307,28 @@ section #rehoming {
     background-color: #aeaeae;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    width: 325px;
+    background-color: #aeaeae;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.card img {
+    background: no-repeat top center/cover;
+    max-width: 60vw;
+    max-height: 60vh;
+}
+
 /* Navbar dropdown toggle */
 nav { 
     position: absolute;
