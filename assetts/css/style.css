@@ -305,7 +305,11 @@ section .heading b{
 
 #rehoming h2 {
     text-align: center;
-    
+    font-size: 3em;
+}
+
+#rehoming ol {
+    list-style-type: none;
 }
 
 section #rehoming {
@@ -317,7 +321,7 @@ section #rehoming {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .card {
