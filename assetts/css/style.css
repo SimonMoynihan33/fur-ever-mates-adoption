@@ -408,6 +408,8 @@ section #rehoming {
     background: #101111;
     color: #ffffff;
     width: 100%;
+    padding: 10px 5px;
+
 }
 
 /* Navbar dropdown toggle */
@@ -473,6 +475,10 @@ footer {
     }
 
     #about-us > div {
+        padding: 20px 50px;
+    }
+
+    #contact div {
         padding: 20px 50px;
     }
 }
