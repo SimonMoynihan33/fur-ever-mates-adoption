@@ -382,7 +382,32 @@ section #rehoming {
 #about-us {
     font-family: 'poppins', sans-serif;
     line-height: 2;
-    font-size: 1rem;;
+    font-size: 1rem;
+}
+
+#about-us div {
+    padding: 10px 5px;
+}
+
+#about-us ol, ul {
+    list-style-type: none;
+}
+
+#about-us h2 {
+    padding-top: 30px;
+    font-size: 180%;
+    text-align: center;
+}
+
+#about-us b {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#contact-us {
+    background: #101111;
+    color: #ffffff;
+    width: 100%;
 }
 
 /* Navbar dropdown toggle */
@@ -445,6 +470,10 @@ footer {
     #mates-cover-text {
         width: 40%;
         right: 40px;
+    }
+
+    #about-us > div {
+        padding: 20px 50px;
     }
 }
 
