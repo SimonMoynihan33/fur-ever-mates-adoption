@@ -114,7 +114,7 @@ main {
 
 /* Love Running structure */
 #circle-cover-bg {
-    background: url("../images/pexels-jagheterjohann-1254140.jpg") no-repeat top center/cover;
+    background: url("../images/pexels-jagheterjohann-1254140.webp") no-repeat top center/cover;
     height: 80vw;
     width: 80vw;
     margin: 20px auto;
@@ -187,6 +187,19 @@ section .heading:before {
 
 section .heading b{
     color: #ff0000;
+}
+
+/* Images for testimonials */
+.test-one img {
+    background: url("../images/test-one.webp") no-repeat center center/cover;
+}
+
+.test-two img {
+    background: url("../images/test-two.webp") no-repeat center center/cover;
+}
+
+.test-three img {
+    background: url("../images/test-three.webp") no-repeat center center/cover;
 }
 
 .wrapper {
@@ -284,29 +297,6 @@ section .heading b{
 }
 
 /* Mates Page */
-/* Mates Hero */
-/* #mates-hero {
-    width: 100%;
-    height: 30vh;
-    background-color: brown;
-    background: url("../images/pexels-mali-101635.jpg") no-repeat top center/cover;
-    position: relative;
-}
-
-/* Heading 
-#mates-cover-text {
-    color: #ffffff;
-    font-size: 1.5rem;
-    background-color: rgba(64, 64, 64, .8);
-    position: absolute;
-    bottom: 25px;
-    width: 70%;
-    padding: 100px 10px 20px;
-    margin-top: 100px;
-    left: 50px;
-    text-align: center;
-}*/
-
 #rehoming {
     margin: 0px;
     padding: 0px;
@@ -398,19 +388,7 @@ section #rehoming {
     text-align: center;
     position: relative;
     overflow: hidden;
-
 }
-
-/* /* Transparent red circle 
-#contact-us:before {
-    position: absolute;
-    content: '';
-    width: 2000px;
-    bottom: -70%;
-    height: 100%;
-    border-radius: 50%;
-    background: rgba(255, 0, 0, .4);
-} */
 
 #about-us div {
     padding: 10px 5px;
@@ -434,7 +412,6 @@ section #rehoming {
 #contact-media {
     display: flex;
     justify-content: space-evenly;
-    color: #fff;
 }
 
 #contact-us h3 {
