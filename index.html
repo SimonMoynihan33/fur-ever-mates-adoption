@@ -13,7 +13,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assetts/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assetts/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assetts/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assetts/css/style.css">
 </head>
@@ -42,7 +41,6 @@
     <main>
         <!-- Hero Section -->
         <section id="hero-image">
-           <amp-img>
             <div id="cover-text">
                 <h2>Change a life, one paw at a time</h2>
             </div>
@@ -87,7 +85,7 @@
         </section>
 
         <!-- Button to bring to Rehoming page -->
-         <a href="mates.html" id="direct-button">Check out Our Mates</a>
+         <a href="mates.html" id="direct-button" aria-label="Our mates (opens mates page)">Check out Our Mates</a>
 
         <!-- Testimonials -->
          <!-- Tutorial used. Documented in README -->
@@ -96,8 +94,8 @@
             <div class="wrapper">
                 <div class="container">
                     <div class="profile">
-                        <div class="image-box test-one">
-                            <img>
+                        <div class="image-box">
+                            <img src="assetts/images/test-one.webp" alt="Woman sitting on grass with her dog">
                         </div>
                         <h2>Amy and Nala</h2>
                     </div>
@@ -109,8 +107,8 @@
                 </div>
                 <div class="container">
                     <div class="profile">
-                        <div class="image-box test-two">
-                            <img>
+                        <div class="image-box">
+                            <img src="assetts/images/test-two.webp" alt="Woman with her dog on the couch">
                         </div>
                         <h2>Rita and Josh</h2>
                     </div>
@@ -123,8 +121,8 @@
                 </div>
                 <div class="container">
                     <div class="profile">
-                        <div class="image-box test-three">
-                            <img>
+                        <div class="image-box">
+                            <img src="assetts/images/test-three.webp" alt="Man hiking with his dog">
                         </div>
                         <h2>Sam and Kobi</h2>
                     </div>
@@ -150,7 +148,7 @@
             </li>
             <li><a href="https://x.com/?lang=en" target="_blank" rel="noopener"
                     aria-label="Visit Our X page (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="about.html#contact" rel="noopener" aria-label="Contact Us"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="about.html#contact" aria-label="Contact us (opens contact section)"><i class="fa-solid fa-phone"></i></a></li>
         </ul>
     </footer>
 

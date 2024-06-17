@@ -189,19 +189,6 @@ section .heading b{
     color: #ff0000;
 }
 
-/* Images for testimonials */
-.test-one img {
-    background: url("../images/test-one.webp") no-repeat center center/cover;
-}
-
-.test-two img {
-    background: url("../images/test-two.webp") no-repeat center center/cover;
-}
-
-.test-three img {
-    background: url("../images/test-three.webp") no-repeat center center/cover;
-}
-
 .wrapper {
     width: 100%;
     display: flex;
