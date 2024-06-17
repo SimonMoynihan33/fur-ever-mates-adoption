@@ -1,32 +1,43 @@
 # Fur-Ever Mates
 
-This is a dog adoption agency in Kerry. The goal of this site is to pair dogs without families to suitable and caring homes. There is the home page that introduces you to the page, a page with some dogs currently in search of a forever home, an about page with relevant information about adoption, dogs and what we do and finally a sign up page where users can request to be screened for possible suiting.
+This is a dog adoption agency in Kerry. The goal of this site is to pair dogs currently without families to suitable and caring homes. There is the home page that introduces you to the page, a page with some dogs currently in search of a forever home, an about page with relevant information about adoption, dogs and what we do and finally a sign up page where users can request to be screened for possible suiting.
 
 ## Features 
 
-
-
-### Existing Features
+Some features of this site include:
 
 - __Navigation Bar__
 
+A navigation bar. The navigation bar of Fur-Ever Mates consists of the logo and four clickable links bringing you to each individual page. 
 
-- __The landing page image__
+The nav bar is responsive, so when the screen size is below 768px, the four pages are hidden behind a dropdown icon which can be toggled. When the screen is 768px and above all four links are visible.
 
+When the screen size is 992px and above (laptops and larger screens) there is a hover feature. This activates when a page name in the nav bar is hovered over. When this happens there is an underline underneath, indicating it can be clicked.
 
-
-- __Club Ethos Section__
-
-
-
-- __Meetup Times section__
+The nav bar also shows which page you are currently on, by highlighting the name of the active page with a red font color and an underline.
 
 
+- __The Landing Page__
+
+The landing page for Fur-Ever Mates begins with a Hero image and our slogan. The Hero image is bright and vibrant, with the goal of having a positive emotional reaction to the site. There are four dogs looking over a wall with the slogan "Change a life, one paw at a time". This is to create an identity and a catchy line that might be remembered by users.
+
+Underneath the Hero image is our heading "Welcome to your first step to meeting your Fur-Ever Mates". This heading is aimed at bringing a hope to someone looking to make this commitment, that it is attainable and they are currently on the right journey to doing so.
+
+Next on the page is an introductory paragraph. Firstly, it tells the user of our goals to pair them with the perfect companion for their circumstances, "Our mission is to connect families with the perfect furry companions". The second paragraph tells the user that we care for animals in our protection, and assures them they recieve the best health-care they can while awaiting adoption. This eliminates possible doubt in the user telling them they will recieve "thorough health-checks, vaccinations and loving care while they await their forever home!".
+
+On mobiles, we have an image of a labrador being walked below the two paragraphs. On larger screens (768px and up), this image seperates the two paragraphs, making use of the extra real estate. 
+
+- __Testimonials Section__
+
+The testimonials section of the landing page was created using the help of a youtube tutorial (https://www.youtube.com/watch?v=6R_feb4rMnc).
+
+This section consists of three boxes, each containing an image, blockquotes and text. I created this section in the hopes of encouraging users and showing previous adopters and they're story. There is also a transparent red circle behind the testimonials, adding style and color, while keeping with the identity created for the page using black, white and red.
 
 - __The Footer__ 
 
+The footer of my webpage is similar to the footer created in the love running walkthrough. It consists of links to each social media website, all opening in new tabs, and also a link to the contact section in our about page. It is styled with border-boxes around the social media images to emphasise each link.
 
-- __Gallery__
+- __Mates Page__
 
 
 - __The Sign Up Page__

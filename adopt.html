@@ -39,21 +39,58 @@
 
     <!-- Main Content -->
     <main>
-        Main content
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Signup</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" name="phone-number" id="email-address" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="large">Large Dog</label>
+                        <input type="radio" name="dog-size" id="large" value="large" required checked>
+                    </div>
+                    <div>
+                        <label for="medium">Medium Dog</label>
+                        <input type="radio" name="dog-size" id="medium" value="medium" required>
+                    </div>
+                    <div>
+                        <label for="small">Small Dog</label>
+                        <input type="radio" name="dog-size" id="small" value="small" required>
+                    </div>
+                    <div>
+                        <label for="any">Any Size</label>
+                        <input type="radio" name="dog-size" id="any" value="any" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
         <ul id="media">
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit Our Instagram page (opens in new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></li>
+                    aria-label="Visit Our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit Our Facebook page (opens in new tab)"><i
-                        class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="Visit Our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://x.com/?lang=en" target="_blank" rel="noopener"
                     aria-label="Visit Our X page (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="about.html#contact" aria-label="Contact us (opens contact section)"><i class="fa-solid fa-phone"></i></a></li>    
+            <li><a href="about.html#contact" aria-label="Contact us (opens contact section)"><i
+                        class="fa-solid fa-phone"></i></a></li>
         </ul>
     </footer>
 
