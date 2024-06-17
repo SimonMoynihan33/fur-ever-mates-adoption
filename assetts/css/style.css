@@ -387,18 +387,7 @@ section #rehoming {
     margin-right: 15%;
 }
 
-/* Transparent red circle */
-#contact:before {
-    position: absolute;
-    content: '';
-    width: 2000px;
-    bottom: -70%;
-    height: 100%;
-    border-radius: 50%;
-    background: rgba(255, 0, 0, .4);
-}
-
-#contact {
+#contact-us {
     font-family: 'poppins', sans-serif;
     line-height: 2;
     font-size: 1rem;
@@ -409,7 +398,19 @@ section #rehoming {
     text-align: center;
     position: relative;
     overflow: hidden;
+
 }
+
+/* /* Transparent red circle 
+#contact-us:before {
+    position: absolute;
+    content: '';
+    width: 2000px;
+    bottom: -70%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(255, 0, 0, .4);
+} */
 
 #about-us div {
     padding: 10px 5px;
@@ -434,6 +435,11 @@ section #rehoming {
     display: flex;
     justify-content: space-evenly;
     color: #fff;
+}
+
+#contact-us h3 {
+    padding-top: 10px;
+    margin-bottom: 50px;
 }
 
 /* Navbar dropdown toggle */
@@ -465,10 +471,8 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #aeaeae;
     line-height: 50px;
 }
-
 
 /* Icon Styles */
 #media {
@@ -482,7 +486,7 @@ footer {
 #media i {
     color: #000;
     padding: 10px;
-    background: rgba(194, 194, 194, 0.9);
+    background: rgba(255, 252, 252, 0.9);
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     text-decoration: none;
