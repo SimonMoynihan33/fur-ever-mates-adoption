@@ -285,7 +285,7 @@ section .heading b{
 
 /* Mates Page */
 /* Mates Hero */
-#mates-hero {
+/* #mates-hero {
     width: 100%;
     height: 30vh;
     background-color: brown;
@@ -293,19 +293,19 @@ section .heading b{
     position: relative;
 }
 
-/* Heading */
+/* Heading 
 #mates-cover-text {
     color: #ffffff;
     font-size: 1.5rem;
     background-color: rgba(64, 64, 64, .8);
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
     width: 70%;
     padding: 100px 10px 20px;
     margin-top: 100px;
     left: 50px;
     text-align: center;
-}
+}*/
 
 #rehoming {
     margin: 0px;
@@ -317,6 +317,7 @@ section .heading b{
 #rehoming h2 {
     text-align: center;
     font-size: 3em;
+    padding-top: 100px;
 }
 
 #rehoming ol {
