@@ -387,6 +387,17 @@ section #rehoming {
     margin-right: 15%;
 }
 
+/* Transparent red circle */
+#contact:before {
+    position: absolute;
+    content: '';
+    width: 2000px;
+    bottom: -70%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(255, 0, 0, .4);
+}
+
 #contact {
     font-family: 'poppins', sans-serif;
     line-height: 2;
@@ -396,6 +407,8 @@ section #rehoming {
     width: 100%;
     padding: 20px 5px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #about-us div {
@@ -417,12 +430,10 @@ section #rehoming {
     font-weight: 600;
 }
 
-
 #contact-media {
     display: flex;
     justify-content: space-evenly;
     color: #fff;
-    text-decoration: none;
 }
 
 /* Navbar dropdown toggle */
