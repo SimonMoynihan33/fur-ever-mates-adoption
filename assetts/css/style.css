@@ -378,6 +378,13 @@ section #rehoming {
     color: #fff;
 }
 
+/* About us page */
+#about-us {
+    font-family: 'poppins', sans-serif;
+    line-height: 2;
+    font-size: 1rem;;
+}
+
 /* Navbar dropdown toggle */
 nav { 
     position: absolute;
