@@ -420,6 +420,10 @@ section #rehoming {
     flex-grow: 1;
 }
 
+#signup h2, h3 {
+    text-align: center;
+}
+
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
