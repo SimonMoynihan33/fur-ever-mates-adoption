@@ -557,6 +557,11 @@ footer {
     #contact div {
         padding: 20px 50px;
     }
+
+    /* Make Form Responsive */
+    #signup-form {
+        width: 60%;
+    }
 }
 
 /* Media query for tablets (768px and up) */
