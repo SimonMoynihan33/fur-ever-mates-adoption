@@ -384,11 +384,6 @@ section #rehoming {
     padding: 10px 5px;
 }
 
-#about-us ol,
-ul {
-    list-style-type: none;
-}
-
 #about-us h2 {
     padding-top: 30px;
     font-size: 180%;
