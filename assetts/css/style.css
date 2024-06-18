@@ -75,11 +75,6 @@ main {
     margin-top: 50px;
 }
 
-.bg-color {
-    background-color: rgba(240,71,46,255);
-}
-
-
 /* Hero Section */
 #hero-image {
     width: 100%;
@@ -290,6 +285,12 @@ section .heading b {
 }
 
 /* Mates Page */
+/* Hero image for mates */
+#mates-hero img {
+    width: 100%;
+    height: 100vh;
+}
+
 #rehoming {
     margin: 0px;
     padding: 0px;
@@ -300,7 +301,6 @@ section .heading b {
 #rehoming h2 {
     text-align: center;
     font-size: 3em;
-    padding-top: 100px;
 }
 
 #rehoming ol {
@@ -430,7 +430,7 @@ ul {
     padding: 30px;
 }
 
-#signup-form > h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
     font-size: 3em;
