@@ -367,6 +367,10 @@ section #rehoming {
     margin-right: 15%;
 }
 
+#contact-us ol {
+    list-style-type: none;
+}
+
 #contact-us {
     font-family: 'poppins', sans-serif;
     line-height: 2;
