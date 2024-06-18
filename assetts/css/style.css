@@ -75,6 +75,11 @@ main {
     margin-top: 50px;
 }
 
+.bg-color {
+    background-color: rgba(240,71,46,255);
+}
+
+
 /* Hero Section */
 #hero-image {
     width: 100%;
@@ -415,7 +420,7 @@ ul {
     background-size: cover;
     background-position: 75%;
     padding: 30px 10% 0 10%;
-    height: 130vh;
+    height: 150vh;
     flex-grow: 1;
 }
 
@@ -451,6 +456,11 @@ ul {
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+input #extra-info {
+    line-height: 30px;
+    padding: 10px;
 }
 
 /* Navbar dropdown toggle */

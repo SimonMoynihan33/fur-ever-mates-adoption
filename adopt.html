@@ -38,7 +38,7 @@
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main class="bg-color">
         <!-- Signup Section (Love Running structure followed) -->
         <section id="signup">
             <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
@@ -56,6 +56,8 @@
                 <input type="tel" name="phone-number" id="email-address" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                     class="text-input" required>
                 <br>
+                <label for="address">Address</label>
+                <input type="address" name="address" id="address" class="text-input" required>
                 <h3>Preferred size of dog you could adopt</h3>
                 <div class="radio-buttons">
                     <div>
@@ -76,8 +78,10 @@
                     </div>
                 </div>
                 <br>
-                <label for="extra-info">Please provide any other information that would be relevant to speed up screening process</label>
-                <text-area name="extra-info" id="extra-info" class="text-input" rows="4" cols="50" required></text-area>
+                <label for="extra-info">Please provide any other information that would be relevant to speed up screening process
+                    <br>(Kids/Other pets/Living area)
+                </label>
+                <input type="text" name="extra-info" id="extra-info" class="text-input" required>
                 <br>
                 <button type="submit" class="join-button">Submit</button>
             </form>
