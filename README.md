@@ -101,6 +101,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - rehome 5 https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/ by summer stock.
 - rehome 6 https://www.pexels.com/photo/pawn-pug-sitting-on-beige-floor-1591939/ by Steshka Willems. 
 - Rehome section tutorial used: URL ("https://www.youtube.com/watch?v=9FNNkzPBFcE"). By "Learn Web".
+- Signup background picture (Image by <a href="https://www.freepik.com/free-photo/studio-shot-cute-border-collie-dog_4079496.htm#query=dog%20red%20background&position=29&from_view=keyword&track=ais_user&uuid=1aa94c23-d832-4cce-b235-77912b7005eb">Freepik</a>)
  
 ### Content 
 

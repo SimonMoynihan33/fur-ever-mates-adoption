@@ -2,24 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Sedan+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,300&display=swap');
+
 /* Fonts */
 .sedan-sc-regular {
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .dm-sans {
+.dm-sans {
     font-family: "DM Sans", sans-serif;
     font-style: normal;
-  }
+}
 
-  .indie-flower-regular {
+.indie-flower-regular {
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 /* Asterik selector to override default styles */
 * {
     padding: 0;
@@ -185,7 +186,7 @@ section .heading:before {
     background: rgba(255, 0, 0, .4);
 }
 
-section .heading b{
+section .heading b {
     color: #ff0000;
 }
 
@@ -274,7 +275,7 @@ section .heading b{
     font-size: 200%;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: .5em;
 }
 
@@ -381,7 +382,8 @@ section #rehoming {
     padding: 10px 5px;
 }
 
-#about-us ol, ul {
+#about-us ol,
+ul {
     list-style-type: none;
 }
 
@@ -407,10 +409,52 @@ section #rehoming {
 }
 
 /* Signup Page (Adopt) */
+#signup {
+    font-family: 'poppins', sans-serif;
+    background-image: url("../images/studio-shot-cute-border-collie-dog.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 30px 10% 0 10%;
+    height: 130vh;
+    flex-grow: 1;
+}
 
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.text-input {
+    color: #000000;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#signup h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* Navbar dropdown toggle */
-nav { 
+nav {
     position: absolute;
     background-color: #ffffff;
     display: none;
@@ -439,6 +483,7 @@ nav {
 /* Footer */
 footer {
     line-height: 50px;
+    z-index: 99;
 }
 
 /* Icon Styles */
@@ -468,7 +513,7 @@ footer {
         right: 40px;
     }
 
-    #about-us > div {
+    #about-us>div {
         padding: 20px 50px;
     }
 
@@ -479,44 +524,45 @@ footer {
 
 /* Media query for tablets (768px and up) */
 @media screen and (min-width: 768px) {
-/* Header */
-nav {
-    display: block;
-    position: relative; 
-    box-shadow: none;
-    width: fit-content;
-    font-size: .8rem;
-    height: 10%;
-}
 
-/* Push main down to be below header */
-main {
-    margin-top: 90px;
-}
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        font-size: .8rem;
+        height: 10%;
+    }
 
-.nav-toggle-label {
-    display: none;
-}
+    /* Push main down to be below header */
+    main {
+        margin-top: 90px;
+    }
 
-#menu {
-    display: flex;
-}
+    .nav-toggle-label {
+        display: none;
+    }
 
-#menu > li {
-    padding-left: .8rem;
-}
+    #menu {
+        display: flex;
+    }
 
-#logo {
-    line-height: 90px;
-}
+    #menu>li {
+        padding-left: .8rem;
+    }
 
-/* Cover text responsivity */
-#cover-text {
-    font-size: 1.5em;
-    padding-top: 30px;
-}
+    #logo {
+        line-height: 90px;
+    }
 
-/* Introduction */
+    /* Cover text responsivity */
+    #cover-text {
+        font-size: 1.5em;
+        padding-top: 30px;
+    }
+
+    /* Introduction */
     /* Introduction */
     #home-intro {
         padding: 20px
@@ -532,39 +578,54 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-    #home-intro > div {
+
+    #home-intro>div {
         flex: 1;
     }
-    
+
     #intro-image {
         order: 0;
     }
-    
+
     #text-right {
         order: 1;
     }
-    
+
     #text-right div {
         align-self: flex-end;
     }
-    
+
     #text-left div {
         align-self: flex-start;
     }
-    
+
     #text-right {
         width: 25vw;
     }
-    
+
     #text-left {
         width: 25vw;
     }
-    
+
     /* Mates page */
     #mates-cover-text {
         width: 60vw;
         font-size: 2em;
+    }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
 }
