@@ -1,51 +1,59 @@
 # Fur-Ever Mates
 
-This is a dog adoption agency in Kerry. The goal of this site is to pair dogs currently without families to suitable and caring homes. There is the home page that introduces you to the page, a page with some dogs currently in search of a forever home, an about page with relevant information about adoption, dogs and what we do and finally a sign up page where users can request to be screened for possible suiting.
+*Fur-Ever Mates* is a dog adoption agency based in Kerry, Ireland. The goal of this site is to pair dogs currently without families to suitable and caring homes. 
 
-## Features 
+This site contains a simple but elegant home page with reviews from previous adopters, a rehoming page where you can see dogs that are currently for adoption, an about page with a contact section and a sign up form to be considered for screening.
 
-Some features of this site include:
+**Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are not available for adoption.
 
-- __Navigation Bar__
+### [Visit Fur-ever-Mates](https://simonmoynihan33.github.io/my-pp1-project/)
 
-A navigation bar. The navigation bar of Fur-Ever Mates consists of the logo and four clickable links bringing you to each individual page. 
+## Table of Contents
 
-The nav bar is responsive, so when the screen size is below 768px, the four pages are hidden behind a dropdown icon which can be toggled. When the screen is 768px and above all four links are visible.
+- [User Experience](#user-experience)
+- [Goals](#goals)
+- [Features](#features)
+- [Design](#design)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Conclusion](#conclusion)
 
-When the screen size is 992px and above (laptops and larger screens) there is a hover feature. This activates when a page name in the nav bar is hovered over. When this happens there is an underline underneath, indicating it can be clicked.
+## User Experience
 
-The nav bar also shows which page you are currently on, by highlighting the name of the active page with a red font color and an underline.
+### First Time Users
+
+New users who come to this site will already be searching for options when it comes to adopting a dog. The goal of this site is not based on impulsive decisions, rather well planned aims to adopt. Adopting a dog is a major commitment, therefore you cannot adopt by pressing a button but must apply and pass a screening process. The site is friendly to new users but does not cater to spur of the moment decisions.
+
+#### Goals for first time users
+
+As somebody who is using this site for the first time I want to:
+- Understand what the site is
+- Know how to apply
+- See what dogs are currently available
+- Be aware of how i can help in other ways if I cannot adopt
+- Know how to get in contact with the agency
+
+### Repeat Users
+
+Fur-ever Mates thrives off of users following up. For this reason the apply page was implemented to keep in touch with aspiring owners, gathering vital information such as email, phone and information relevant when it comes to dog ownership (number of kids/other pets).
+
+## Goals
+
+Fur-Ever Mates aims to create a compassionate and efficient platform dedicated to uniting loving families with their ideal canine companions. Our primary goals are to ensure the well-being and happiness of all dogs in our care, provide thorough and transparent adoption processes, and educate potential pet owners on responsible pet ownership. We are committed to working closely with local shelters, rescue organizations, and volunteers to offer a wide variety of dogs, from puppies to seniors, each with their unique stories and needs. By fostering a supportive community of dog lovers, Fur-Ever Mates strives to reduce the number of homeless dogs and enhance the human-animal bond through thoughtful matchmaking and ongoing support for adopters.
+
+## Features
+
+### Logo 
+
+*Fur-Ever Mates* logo is simple but distinct. The aim of this is to make a memorable and user friendly experience. The color red is used in the logo and throughout the site to have a unique identifier and page theme. The inspiration from this came from [Dogs Trust](https://www.dogstrust.ie/), where they use a yellow theme that sets it apart and keeps it memorable.
+
+### Nav Bar
 
 
-- __The Landing Page__
 
-The landing page for Fur-Ever Mates begins with a Hero image and our slogan. The Hero image is bright and vibrant, with the goal of having a positive emotional reaction to the site. There are four dogs looking over a wall with the slogan "Change a life, one paw at a time". This is to create an identity and a catchy line that might be remembered by users.
-
-Underneath the Hero image is our heading "Welcome to your first step to meeting your Fur-Ever Mates". This heading is aimed at bringing a hope to someone looking to make this commitment, that it is attainable and they are currently on the right journey to doing so.
-
-Next on the page is an introductory paragraph. Firstly, it tells the user of our goals to pair them with the perfect companion for their circumstances, "Our mission is to connect families with the perfect furry companions". The second paragraph tells the user that we care for animals in our protection, and assures them they recieve the best health-care they can while awaiting adoption. This eliminates possible doubt in the user telling them they will recieve "thorough health-checks, vaccinations and loving care while they await their forever home!".
-
-On mobiles, we have an image of a labrador being walked below the two paragraphs. On larger screens (768px and up), this image seperates the two paragraphs, making use of the extra real estate. 
-
-- __Testimonials Section__
-
-The testimonials section of the landing page was created using the help of a youtube tutorial (https://www.youtube.com/watch?v=6R_feb4rMnc).
-
-This section consists of three boxes, each containing an image, blockquotes and text. I created this section in the hopes of encouraging users and showing previous adopters and they're story. There is also a transparent red circle behind the testimonials, adding style and color, while keeping with the identity created for the page using black, white and red.
-
-- __The Footer__ 
-
-The footer of my webpage is similar to the footer created in the love running walkthrough. It consists of links to each social media website, all opening in new tabs, and also a link to the contact section in our about page. It is styled with border-boxes around the social media images to emphasise each link.
-
-- __Mates Page__
-
-
-- __The Sign Up Page__
-
-
-
-### Features Left to Implement
-
+## Design
 
 ## Testing 
 
@@ -68,6 +76,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
+### Fixed Bugs
 
 ## Deployment
 
@@ -117,7 +127,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
+## Conclusion
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
