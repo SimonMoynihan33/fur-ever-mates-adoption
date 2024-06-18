@@ -410,17 +410,26 @@ section #rehoming {
 }
 
 /* Signup Page (Adopt) */
+main {
+    flex: 1 0 auto;
+}
+
 #signup {
     font-family: 'poppins', sans-serif;
     background-image: url("../images/studio-shot-cute-border-collie-dog.webp");
     background-size: cover;
     background-position: 75%;
     padding: 30px 10% 0 10%;
-    height: 170vh;
     flex-grow: 1;
 }
 
-#signup h2, h3 {
+
+
+#signup-form > h2 {
+    text-align: center;
+}
+
+#signup-form > h3 {
     text-align: center;
 }
 
@@ -457,6 +466,13 @@ section #rehoming {
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+form textarea {
+    margin-top: 5px;
+    resize: vertical;
+    height: 100px;
+    width: 100%;
 }
 
 /* Navbar dropdown toggle */
@@ -636,12 +652,6 @@ footer {
         background-color: #fafafa;
         color: #454b1b;
     }
-
-    /* Makes signup responsive */
-    #signup {
-        height: 130vh;
-    }
-
 }
 
 /* Large devices (laptop and larger 992px and up) */
