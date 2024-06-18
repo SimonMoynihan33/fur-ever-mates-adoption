@@ -83,18 +83,18 @@ main {
     background: url("../images/pexels-edd1egalaxy-3628100.webp") no-repeat center center/cover;
 }
 
+/* Cover text styles */
 #cover-text {
-    font-size: .8em;
-    padding-top: 60px;
-    padding-right: 15px;
+    font-size: 1em;
+    color: #fff;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    width: 70%;
+    min-height: 50px;
+    padding: 20px 10px;
     font-family: "Indie Flower", cursive;
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Alt text for hero image */
-.alt-display {
-    display: none;
+    background: rgba(60, 60, 60, 0.6);
 }
 
 /* Intro Heading and paragraphs */
@@ -509,13 +509,13 @@ footer {
 }
 
 /* Media query for (540px and up) */
-/* Make cover text responsive */
 @media screen and (min-width: 540px) {
-    #mates-cover-text {
-        width: 40%;
-        right: 40px;
+    /* Cover text responsivity */
+    #cover-text {
+        font-size: 1.5em;
+        padding-top: 30px;
+        width: 50%;
     }
-
     #about-us>div {
         padding: 20px 50px;
     }
@@ -552,6 +552,11 @@ footer {
         display: none;
     }
 
+    #cover-text {
+        right: 60px;
+        width: 35%;
+    }
+
     #menu {
         display: flex;
     }
@@ -564,13 +569,6 @@ footer {
         line-height: 90px;
     }
 
-    /* Cover text responsivity */
-    #cover-text {
-        font-size: 1.5em;
-        padding-top: 30px;
-    }
-
-    /* Introduction */
     /* Introduction */
     #home-intro {
         padding: 20px
