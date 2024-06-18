@@ -295,6 +295,7 @@ section .heading b {
 }
 
 #rehoming h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 3em;
     padding-top: 70px;
@@ -415,7 +416,7 @@ main {
 }
 
 #signup {
-    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     background-image: url("../images/studio-shot-cute-border-collie-dog.webp");
     background-size: cover;
     background-position: 75%;
@@ -423,23 +424,24 @@ main {
     flex-grow: 1;
 }
 
-#signup-form > h2 {
+#signup-form>h2 {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
-#signup-form > h3 {
+#signup-form>h3 {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(95, 95, 95, 0.45);
+    background-color: rgba(95, 95, 95, 0.7);
     padding: 30px;
+    border-radius: 20px;
 }
 
-#signup-form > h2 {
+#signup-form>h2 {
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 3em;
@@ -472,7 +474,9 @@ form textarea {
     height: 100px;
     width: 100%;
 }
-.text-input, textarea {
+
+.text-input,
+textarea {
     color: #ffffff;
     border: 1px solid #000;
     background-color: rgba(104, 104, 104, 0.25);
@@ -538,12 +542,14 @@ footer {
 
 /* Media query for (540px and up) */
 @media screen and (min-width: 540px) {
+
     /* Cover text responsivity */
     #cover-text {
         font-size: 1.5em;
         padding-top: 30px;
         width: 50%;
     }
+
     #about-us>div {
         padding: 20px 50px;
     }
@@ -648,7 +654,8 @@ footer {
         background-position: center;
     }
 
-    .text-input:hover, textarea:hover {
+    .text-input:hover,
+    textarea:hover {
         border-color: #ffffff;
     }
 
