@@ -308,7 +308,7 @@ section .heading b {
 }
 
 section #rehoming {
-    background-color: #aeaeae;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -322,7 +322,7 @@ section #rehoming {
 
 .card {
     width: 280px;
-    background-color: #aeaeae;
+    background-color: #ffffff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
@@ -420,7 +420,7 @@ ul {
     background-size: cover;
     background-position: 75%;
     padding: 30px 10% 0 10%;
-    height: 150vh;
+    height: 200vh;
     flex-grow: 1;
 }
 
@@ -430,7 +430,7 @@ ul {
     padding: 30px;
 }
 
-#signup-form>h2 {
+#signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
     font-size: 3em;
@@ -450,17 +450,13 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #signup h3 {
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-input #extra-info {
-    line-height: 30px;
-    padding: 10px;
 }
 
 /* Navbar dropdown toggle */
@@ -529,6 +525,11 @@ footer {
 
     #contact div {
         padding: 20px 50px;
+    }
+
+    /* Makes signup responsive */
+    #signup {
+        height: 150vh;
     }
 }
 
@@ -636,6 +637,11 @@ footer {
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
+    }
+
+    /* Makes signup responsive */
+    #signup {
+        height: 130vh;
     }
 
 }
