@@ -51,7 +51,19 @@ Fur-Ever Mates aims to create a compassionate and efficient platform dedicated t
 
 ### Nav Bar
 
+The Nav Bar of the page consists of a white background, the logo and links to each individual page.
 
+- *Below 768px:* On screens below 768px, the navbar condenses and the links are hidden behind a down arrow dropdown toggle. When clicked, the navbar expands vertically to show each visitable page, simultaneously showing which page you are on by highlighting your current location in red. 
+
+- *768 and above:* On screens 768px and above, the navbar has enough room to house all page links horizontally, while not smothering the logo. The red highlight of the current location can still be seen on screens of this size. This was done via *media query*.
+
+- *Laptops and larger:* On screen sizes 992px and above it can be assumed the user is using a cursor to navigate the page. Here, we have implemented not only the red highlighting of the current location but a border underline when an element in the nav is hovered over. This conveys that the link is clickable and adds a level of professionalism to the site. 
+
+### Hero Image 
+
+The hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
+
+Cover text is also present, with the slogan "Change a life, one paw at a time". There is a transparent background behind this to make it more accessible color-wise.
 
 ## Design
 
