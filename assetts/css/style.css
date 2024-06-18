@@ -319,7 +319,7 @@ section #rehoming {
 
 .card {
     width: 280px;
-    background-color: #ffffff;
+    background-color: rgba(240,71,46,255);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
