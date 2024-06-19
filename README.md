@@ -6,7 +6,7 @@ This site contains a simple but elegant home page with reviews from previous ado
 
 **Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are not available for adoption.
 
-![amiresponsive](https://simonmoynihan33.github.io/my-pp1-project/assetts/images/amiresponsive.png)
+![amiresponsive](assetts/images/readme-img/amiresponsive.png)
 
 ### [Visit Fur-ever-Mates](https://simonmoynihan33.github.io/my-pp1-project/)
 
