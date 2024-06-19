@@ -6,6 +6,8 @@ This site contains a simple but elegant home page with reviews from previous ado
 
 **Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are not available for adoption.
 
+![amiresponsive](https://simonmoynihan33.github.io/my-pp1-project/assetts/images/amiresponsive.png)
+
 ### [Visit Fur-ever-Mates](https://simonmoynihan33.github.io/my-pp1-project/)
 
 ## Table of Contents
@@ -206,3 +208,5 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+[def]: assetts/images/readme-img/amiresponsive.png
