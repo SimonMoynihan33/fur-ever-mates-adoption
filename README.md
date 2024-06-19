@@ -6,7 +6,7 @@ This site contains a simple but elegant home page with reviews from previous ado
 
 **Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are not available for adoption.
 
-![amiresponsive](assetts/images/readme-img/amiresponsive.png)
+![amiresponsive](assetts/images/readme-img/amiresponsiveclip.png)
 
 ### [Visit Fur-ever-Mates](https://simonmoynihan33.github.io/my-pp1-project/)
 
@@ -57,15 +57,20 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 
 - *Below 768px:* On screens below 768px, the navbar condenses and the links are hidden behind a down arrow dropdown toggle. When clicked, the navbar expands vertically to show each visitable page, simultaneously showing which page you are on by highlighting your current location in red. 
 
+![Mobile nav](assetts/images/readme-img/nav-mobile.png)
+
 - *768 and above:* On screens 768px and above, the navbar has enough room to house all page links horizontally, while not smothering the logo. The red highlight of the current location can still be seen on screens of this size. This was done via *media query*.
 
 - *Laptops and larger:* On screen sizes 992px and above it can be assumed the user is using a cursor to navigate the page. Here, we have implemented not only the red highlighting of the current location but a border underline when an element in the nav is hovered over. This conveys that the link is clickable and adds a level of professionalism to the site. 
 
+![Logo and Nav](assetts/images/readme-img/nav-laptop.png)
 ### Hero Image 
 
 - The hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
 
 - Cover text is also present, with the slogan "Change a life, one paw at a time". There is a transparent background behind this to make it more accessible color-wise.
+
+![Hero](assetts/images/readme-img/heroimg.png)
 
 ### Introduction Section
 
@@ -79,9 +84,14 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 
 In this section is a black background with three dark colored cards, a small image, red blockquotes and some text. There is also a red transparent circle in the background to add some color and styling. This section, like all others, is fully responsive. On mobiles they are displayed on top of one another, whereas on tablet there is 2 in a row and one underneath and on laptops all three are in a clean and even row. 
 
+![Testimonials Laptop](assetts/images/readme-img/test-laptop.png)
+
+![Testimonials Tablets](assetts/images/readme-img/test-tablet.png)
 ### Footer
 
 - The footer for this website took inspiration from the Love Running Walkthrough project, with some custome styling to add borders and shadows to each social media link. The last link (the phone icon) will bring users to our contact section on the about page. 
+
+![Footer](assetts/images/readme-img/footer.png)
 
 ### Mates
 
@@ -91,6 +101,7 @@ In this section is a black background with three dark colored cards, a small ima
 
 - Each card has a button that when clicked, directs the user to our signup page to apply for adoption.
 
+![Rehome](assetts/images/readme-img/rehome-page.webp)
 ### About 
 
 - Our third page, the about section, gives a more detailed description of what we do and how we care for our dogs. Beneath this, is a section outlining how you can help.
@@ -158,6 +169,7 @@ The live link can be found here - https://simonmoynihan33.github.io/my-pp1-proje
 
 - Nav skeleton was taken from Love Running project.
 - Nav toggle and dropdown was created while watching Love Running walkthrough
+- [FocoClipping](https://www.fococlipping.com/) was used for clipping photos such as am i responsive.
 
 ### Images
 
