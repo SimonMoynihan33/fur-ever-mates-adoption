@@ -110,9 +110,9 @@ The design of Fur-Ever Mates is a friendly and warm one, encouraging positive em
 
 It offers a clean and descriptive landing page, instantly telling users the purpose of the site, with reviews to highlight the satisfaction from previous adopters. 
 
-The Mates page is a simple but effective design, so not to bombard the user with information when making a decision. The information on this page is limited but important. In the future we hope to add more information about our dogs such as breed, gender, temperament and current health-status. 
+The Mates page is an effective design, featuring cards displaying an image and information about the dogs. The location line uses a [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) icon to quickly identify where this dog is in relation to the user. The information on this page is limited but important. In the future we hope to add more information about our dogs such as breed, gender, temperament and current health-status. 
 
-"About" is once again a simple design without images or background colors. This page is a more detailed and imformative page and is best left with the text being the main focus. Icons are used to add some style but keep the minimalistic approach. Beneath the about section is the contact section, outlining how to get in touch with us. The style for this was keeping in line with the testimonials section at the bottom of the landing page.
+"About" is a simple but clean and not overwhelming design without images or background colors. This page is a more detailed and informative page and is best left with the text being the main focus. Icons are used to add some style but keep the minimalistic approach. Beneath the about section is the contact section, outlining how to get in touch with us. The style for this was keeping in line with the testimonials section at the bottom of the landing page.
 
 Finally, the signup page is where we wish to use vibrant and bright colors to convey a sense of happiness and hope. The red background image keeps in line with the page's theme, with a signup form including a dark background to add contrast and make the text easier to read. 
 
@@ -152,39 +152,43 @@ The live link can be found here - https://simonmoynihan33.github.io/my-pp1-proje
 
 ## Credits 
 
+### General Credits
+
 - Nav skeleton was taken from Love Running project.
 - Nav toggle and dropdown was created while watching Love Running walkthrough
-- Readme template was used from Love Running Readme.
-- Used love running to format the underline when hovering over an item in the menu
-- Hero Image URL ("https://www.pexels.com/photo/black-and-white-short-coated-dogs-3628100/"). By Edgar Daniel Hernández Cervantes.
-- Circular image on home screen URL ("https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/"). By Johann.
-- First Testimonial image URL ("https://www.pexels.com/photo/woman-sitting-with-dogs-on-grass-20584832/"). By "Ana María Franco Arias".
-- Second Testimonial image URL ("https://images.pexels.com/photos/8498519/pexels-photo-8498519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By "Yaroslav Shuraev".
-- Third Testimonial image URL ("https://images.pexels.com/photos/10369105/pexels-photo-10369105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By "Nine Lives Cats Etc".
-- Testimonials section was created with help of youtube video ("https://www.youtube.com/watch?v=6R_feb4rMnc"). By WebKitCoding.
-- Mates page Hero image URL ("https://images.pexels.com/photos/757920/pexels-photo-757920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Aldo Carrillo.
-- Rehome image 1 URL ("https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"). By Kat Smith.
-- Rehome image 2 URL ("https://www.pexels.com/photo/black-and-white-siberian-husky-puppy-on-brown-grass-field-3726314/"). By Julissa Helmuth.
-- Rehome 3 https://www.pexels.com/photo/short-coated-tan-dog-2253275/ by Helena Lopez.
-- rehome 4 https://www.pexels.com/photo/dog-running-on-grass-422220/ by Matthias Zomer.
-- rehome 5 https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/ by summer stock.
-- rehome 6 https://www.pexels.com/photo/pawn-pug-sitting-on-beige-floor-1591939/ by Steshka Willems. 
-- Rehome section tutorial used: URL ("https://www.youtube.com/watch?v=9FNNkzPBFcE"). By "Learn Web".
+
+### Images
+
+**Landing page**
+- [Hero Image](https://www.pexels.com/photo/black-and-white-short-coated-dogs-3628100/). By "Edgar Daniel Hernández Cervantes".
+- [Circular image on home screen](https://www.pexels.com/photo/english-cocker-spaniel-puppy-sitting-on-ground-beside-grass-1254140/). By "Johann".
+- [First Testimonial](https://www.pexels.com/photo/woman-sitting-with-dogs-on-grass-20584832/) image. By "Ana María Franco Arias".
+- [Second Testimonial](https://images.pexels.com/photos/8498519/pexels-photo-8498519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) image URL . By "Yaroslav Shuraev".
+- [Third Testimonial](https://images.pexels.com/photos/10369105/pexels-photo-10369105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) image. By "Nine Lives Cats Etc".
+
+**Mates**
+- [Rehome image 1](https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1). By Kat Smith.
+- [Rehome image 2](https://www.pexels.com/photo/black-and-white-siberian-husky-puppy-on-brown-grass-field-3726314/). By Julissa Helmuth.
+- [Rehome image 3](https://www.pexels.com/photo/short-coated-tan-dog-2253275/). By Helena Lopez.
+- [Rehome image 4](https://www.pexels.com/photo/dog-running-on-grass-422220/). By Matthias Zomer.
+- [Rehome image 5](https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/). By summer stock.
+- [Rehome image 6](https://www.pexels.com/photo/pawn-pug-sitting-on-beige-floor-1591939/). By Steshka Willems. 
+
+**Signup**
 - Signup background picture (Image by <a href="https://www.freepik.com/free-photo/studio-shot-cute-border-collie-dog_4079496.htm#query=dog%20red%20background&position=29&from_view=keyword&track=ais_user&uuid=1aa94c23-d832-4cce-b235-77912b7005eb">Freepik</a>)
- 
+
+### Tutorials
+- Testimonials section was created with help of youtube video: (https://www.youtube.com/watch?v=6R_feb4rMnc). By "WebKitCoding".
+- Rehome section created with help of tutorial: (https://www.youtube.com/watch?v=9FNNkzPBFcE). By "Learn Web".
+
+### Icons
+- [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) used for icons throughout page. 
+
+### Fonts
+- [Google Fonts](https://fonts.google.com/) used to capture fonts.
+
 ### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- [ChatGPT](https://openai.com/index/chatgpt/) was used for some of the content such as introduction section and about page. 
 
 ## Conclusion
 
