@@ -494,7 +494,6 @@ nav {
     background-color: #ffffff;
     display: none;
     width: 100vw;
-    height: 40vh;
     left: 0;
     padding-right: 25px;
     padding-top: .5rem;
@@ -646,12 +645,6 @@ footer {
 
     #text-left {
         width: 25vw;
-    }
-
-    /* Mates page */
-    #mates-cover-text {
-        width: 60vw;
-        font-size: 2em;
     }
 
     /* Form */
