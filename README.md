@@ -47,7 +47,7 @@ Fur-Ever Mates aims to create a compassionate and efficient platform dedicated t
 
 ### Logo 
 
-*Fur-Ever Mates* logo is simple but distinct. The aim of this is to make a memorable and user friendly experience. The color red is used in the logo and throughout the site to have a unique identifier and page theme. The inspiration from this came from [Dogs Trust](https://www.dogstrust.ie/), where they use a yellow theme that sets it apart and keeps it memorable.
+- *Fur-Ever Mates* logo is simple but distinct. The aim of this is to make a memorable and user friendly experience. The color red is used in the logo and throughout the site to have a unique identifier and page theme. The inspiration from this came from [Dogs Trust](https://www.dogstrust.ie/), where they use a yellow theme that sets it apart and keeps it memorable.
 
 ### Nav Bar
 
@@ -61,11 +61,60 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 
 ### Hero Image 
 
-The hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
+- The hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
 
-Cover text is also present, with the slogan "Change a life, one paw at a time". There is a transparent background behind this to make it more accessible color-wise.
+- Cover text is also present, with the slogan "Change a life, one paw at a time". There is a transparent background behind this to make it more accessible color-wise.
+
+### Introduction Section
+
+- Next there is the introduction section to the website. This is a short but descriptive overview of what our goals are as an organisation, and what we do for dogs in our care, also including a circular image of a dog being walked. 
+
+- "Check out our mates" button is displayed below this which will direct users to the mates page.
+
+### Testimonials
+
+- Below the introduction section is a testimonials section with user reviews. This section was created with the aid of a youtube tutorial documented in the [credits](#credits) part of the readme. 
+
+In this section is a black background with three dark colored cards, a small image, red blockquotes and some text. There is also a red transparent circle in the background to add some color and styling. This section, like all others, is fully responsive. On mobiles they are displayed on top of one another, whereas on tablet there is 2 in a row and one underneath and on laptops all three are in a clean and even row. 
+
+### Footer
+
+- The footer for this website took inspiration from the Love Running Walkthrough project, with some custome styling to add borders and shadows to each social media link. The last link (the phone icon) will bring users to our contact section on the about page. 
+
+### Mates
+
+**Rehoming Section**
+
+- This is the main page users will visit if they are planning on using our site. We have gone with a simple but clean design so as not to distract users. There are currently six cards, all with the name, location and a photo of available pets. 
+
+- Each card has a button that when clicked, directs the user to our signup page to apply for adoption.
+
+### About 
+
+- Our third page, the about section, gives a more detailed description of what we do and how we care for our dogs. Beneath this, is a section outlining how you can help.
+
+### Conatct
+
+**Informative information on contacting us**
+ - Users get in-depth information on how to contact us, and how to go about helping in whatever way they can. This section can also be accessed through the footer.
+
+ ### Adopt 
+
+ **Apply for screening**
+
+ - A sleek form on a red background with a border collie of to the right, this page allows users to apply to adopt a dog currently in our care.
 
 ## Design
+
+The design of Fur-Ever Mates is a friendly and warm one, encouraging positive emotional reaction and hope. The page incorporates the main colors of white, black and splashes of red to promote association and unique identity. 
+
+It offers a clean and descriptive landing page, instantly telling users the purpose of the site, with reviews to highlight the satisfaction from previous adopters. 
+
+The Mates page is a simple but effective design, so not to bombard the user with information when making a decision. The information on this page is limited but important. In the future we hope to add more information about our dogs such as breed, gender, temperament and current health-status. 
+
+"About" is once again a simple design without images or background colors. This page is a more detailed and imformative page and is best left with the text being the main focus. Icons are used to add some style but keep the minimalistic approach. Beneath the about section is the contact section, outlining how to get in touch with us. The style for this was keeping in line with the testimonials section at the bottom of the landing page.
+
+Finally, the signup page is where we wish to use vibrant and bright colors to convey a sense of happiness and hope. The red background image keeps in line with the page's theme, with a signup form including a dark background to add contrast and make the text easier to read. 
 
 ## Testing 
 
@@ -93,14 +142,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://simonmoynihan33.github.io/my-pp1-project/
 
 
 ## Credits 
