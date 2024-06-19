@@ -8,7 +8,7 @@ This site contains a simple but elegant home page with reviews from previous ado
 
 ![amiresponsive](assetts/images/readme-img/amiresponsiveclip.png)
 
-### [Visit Fur-ever-Mates](https://simonmoynihan33.github.io/my-pp1-project/)
+### [Visit Fur-ever-Mates](https://simonmoynihan33.github.io/fur-ever-mates-adoption/)
 
 ## Table of Contents
 
