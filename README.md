@@ -78,6 +78,8 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 
 - "Check out our mates" button is displayed below this which will direct users to the mates page.
 
+![Mates Button](assetts/images/readme-img/mates-button.png)
+
 ### Testimonials
 
 - Below the introduction section is a testimonials section with user reviews. This section was created with the aid of a youtube tutorial documented in the [credits](#credits) part of the readme. 
@@ -89,7 +91,7 @@ In this section is a black background with three dark colored cards, a small ima
 ![Testimonials Tablets](assetts/images/readme-img/test-tablet.png)
 ### Footer
 
-- The footer for this website took inspiration from the Love Running Walkthrough project, with some custome styling to add borders and shadows to each social media link. The last link (the phone icon) will bring users to our contact section on the about page. 
+- The footer for this website took inspiration from the Love Running Walkthrough project, with some custom styling to add borders and shadows to each social media link. The last link (the phone icon) will bring users to our contact section on the about page. 
 
 ![Footer](assetts/images/readme-img/footer.png)
 
@@ -106,10 +108,12 @@ In this section is a black background with three dark colored cards, a small ima
 
 - Our third page, the about section, gives a more detailed description of what we do and how we care for our dogs. Beneath this, is a section outlining how you can help.
 
-### Conatct
+### Contact
 
 **Informative information on contacting us**
  - Users get in-depth information on how to contact us, and how to go about helping in whatever way they can. This section can also be accessed through the footer.
+
+ ![Contact](assetts/images/readme-img/contact.png)
 
  ### Adopt 
 
@@ -117,6 +121,7 @@ In this section is a black background with three dark colored cards, a small ima
 
  - A sleek form on a red background with a border collie of to the right, this page allows users to apply to adopt a dog currently in our care.
 
+![Adopt Page](assetts/images/readme-img/adopt-page.png)
 ## Design
 
 The design of Fur-Ever Mates is a friendly and warm one, encouraging positive emotional reaction and hope. The page incorporates the main colors of white, black and splashes of red to promote association and unique identity. 
@@ -170,6 +175,8 @@ The live link can be found here - https://simonmoynihan33.github.io/my-pp1-proje
 - Nav skeleton was taken from Love Running project.
 - Nav toggle and dropdown was created while watching Love Running walkthrough
 - [FocoClipping](https://www.fococlipping.com/) was used for clipping photos such as am i responsive.
+- [Squoosh](https://squoosh.app/) was used to compress images and format them to webp.
+- [Pexels](https://www.pexels.com/) was where free images were collected from. 
 
 ### Images
 
