@@ -317,7 +317,7 @@ section #rehoming {
 }
 
 .card {
-    width: fit-content;
+    width: 280px;
     background-color: rgba(162, 162, 162, 0.4);
     border-radius: 8px;
     overflow: hidden;
@@ -326,9 +326,8 @@ section #rehoming {
 }
 
 .card img {
-    min-width: 100%;
+    width: 100%;
     text-align: center;
-    transform: translateX(-70px);
 }
 
 .card-content {
