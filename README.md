@@ -153,13 +153,14 @@ Finally, the signup page is where we wish to use vibrant and bright colors to co
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Lighthouse scores
+- **Desktop**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+![index.html page](docs/home-page-score.png)
+![mates.html page](docs/mates-page-score.png)
+![about.html page](docs/about-page-score.png)
+![adopt.html page](docs/adopt-page-score.png)
+![adopt-feedback.html page](docs/adopt-feedback-score.png)
 
 
 ### Validator Testing 
@@ -169,7 +170,7 @@ If this section grows too long, you may want to split it off into a separate fil
   - **Mates page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fmates.html)
   - **About page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fabout.html)
   - **Adopt page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fadopt.html)
-  - **Adopt feedback page** No errors were returned when passing through the official [W3C validator]
+  - **Adopt feedback page** No errors were returned when passing through the official W3C validator
   
   ![Adopt Feedback](docs/adopt-feedback-validation.png)
 - CSS

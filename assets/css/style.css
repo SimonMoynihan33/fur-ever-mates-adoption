@@ -80,7 +80,7 @@ main {
     width: 100%;
     height: 400px;
     background-color: aqua;
-    background: url("../images/landing-hero.webp") no-repeat center center/cover;
+    background: url("../images/landing-hero-mobile.webp") no-repeat center center/cover;
 }
 
 /* Cover text styles */
@@ -546,7 +546,7 @@ nav {
     position: absolute;
     white-space: nowrap; 
     width: 1px;
-  }
+}
 
 /* Footer */
 footer {
@@ -599,6 +599,14 @@ footer {
 
 /* Media query for tablets (768px and up) */
 @media screen and (min-width: 768px) {
+
+    /* Hero Section */
+    #hero-image {
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    background: url("../images/landing-hero.webp") no-repeat center center/cover;
+}
 
     /* Header */
     nav {
