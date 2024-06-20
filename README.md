@@ -24,6 +24,7 @@ Dogs are among the most loyal creatures in the world, and they all deserve to be
 
 - [User Experience](#user-experience)
 - [Goals](#goals)
+- [Creation Structure](#creation-structure)
 - [Features](#features)
 - [Design](#design)
 - [Testing](#testing)
@@ -31,7 +32,12 @@ Dogs are among the most loyal creatures in the world, and they all deserve to be
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Conclusion](#conclusion)
+
+## Creation Structure
+
+Fur-Ever Mates was created using the mobile first method. This ensures the best possible experience for mobile users who make up majority of the traffic on sites. ["As of 2024, 60.67% of website traffic comes from Mobile Devices"](https://whatsthebigdata.com/mobile-internet-traffic/) ~ [whatsthebigdata.com](https://whatsthebigdata.com/).
+
+I then worked my back via media queries (540px and up, 768px and up, 992px and up, 2400px and up). This ensures the best experience for all users.
 
 ## User Experience
 
@@ -159,20 +165,24 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - **Landing page** Two warnings were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Findex.html)
-  ![Warnings](docs/warnings-index.html.png)
-  - These are empty headings used for icons from Font Awesome. They are in H" elements for styling purposes. It is a trivial warning. 
+  - **Landing page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2F)
   - **Mates page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fmates.html)
   - **About page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fabout.html)
   - **Adopt page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fadopt.html)
   - **Adopt feedback page** No errors were returned when passing through the official [W3C validator]
+  
   ![Adopt Feedback](docs/adopt-feedback-validation.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
+  
   ![CSS Validation](docs/css-validation.png)
 
 ## Future Deployment
 
+I believe this website is already fit for usage, but improvements can always be made. In the future some things I would like to implement are: 
+- Better usability for screen sizes above 2000px.
+- A location and map if this was a real organisation.
+- More styles to rehoming section (mates page). The design for this page is functional and attractive, but with more dogs added and more time to do so, this page would have it's own unique style, with more information about each dog and a dropdown for each to display this. Also, whichever adopt button is pressed would be sent to the server along with the form. 
 
 
 ## Bugs
@@ -216,10 +226,13 @@ When I condensed the image, this caused the cards to go off center and leave a l
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From here, navigate to the pages section
+  - Change branch to main if not already selected
+  - Click save
+  - Go back to Code section on the top left
+  - Scroll to deployments
 
-The live link can be found here - https://simonmoynihan33.github.io/my-pp1-project/
+The live link can be found here - https://simonmoynihan33.github.io/fur-ever-mates-adoption/
 
 
 ## Credits 
@@ -265,22 +278,3 @@ The live link can be found here - https://simonmoynihan33.github.io/my-pp1-proje
 
 ### Content 
 - [ChatGPT](https://openai.com/index/chatgpt/) was used for some of the content such as introduction section and about page. 
-
-## Conclusion
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-
-[def]: docs/amiresponsive.png
