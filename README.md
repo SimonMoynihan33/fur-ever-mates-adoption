@@ -148,9 +148,14 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Findex.html)
+  - **Landing page** Two errors were returned when passing through the official [W3C validator]()
+  ![Warnings]
+  - **Mates page** No errors were returned when passing through the official [W3C validator]()
+  - **About page** No errors were returned when passing through the official [W3C validator]()
+  - **Adopt page** No errors were returned when passing through the official [W3C validator]()
+  - **Adopt feedback page** No errors were returned when passing through the official [W3C validator]()
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator]
 
 ### Unfixed Bugs
 
