@@ -158,6 +158,35 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ### Fixed Bugs
 
+#### Landing Page
+
+**Hero image**
+The Hero image of the landing page was not tall enough on larger screens and cut out majority of the image.
+
+*To fix this:*
+- I added a media query for 2400px and up so the height of the image fit much better
+
+**Introduction Image**
+
+The image was too large for the perameters I had set. Cutting and resizing the image solved this issue.
+
+**Testimonials**
+
+On screens larger than 1400px, the testimonials section became too large for the content beneath it. This was due to the *100vh* height i set to this section. Removing this solved the issue.
+
+Testimonial images were at their full size when only needing to be 100x100. This issue was solved by resizing images.  
+
+#### Mates page
+
+On the mates page, my images were not cropped or condensed to the correct size. This was causing bad performance on mobile screens when brought to the lighthouse.
+
+When I condensed the image, this caused the cards to go off center and leave a large column to the right of the images on larger screens and off centered images on smaller. 
+
+**To fix this**
+- First, I condensed each image to be the same height and width, this solved the issue of my images being too large and negatively effecting my performance of this page.
+- I then removed *translateX()* code I previously used, which was moving images off center.
+- Finally, I added media queries to multiple screen sizes (768px and up, 992px and up, and 2400px and up). I added the media query of 2400px and up to solve the issues with large desktop screens.
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -177,6 +206,7 @@ The live link can be found here - https://simonmoynihan33.github.io/my-pp1-proje
 - [FocoClipping](https://www.fococlipping.com/) was used for clipping photos such as am i responsive.
 - [Squoosh](https://squoosh.app/) was used to compress images and format them to webp.
 - [Pexels](https://www.pexels.com/) was where free images were collected from. 
+- My mentor, David Bowers was instrumental in guiding me through this project.
 
 ### Images
 
