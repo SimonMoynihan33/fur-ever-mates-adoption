@@ -85,6 +85,8 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 
 - The hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
 
+- There is a hero image set for mobile and also for devices 768px and above. 
+
 - Cover text is also present, with the slogan "Change a life, one paw at a time". There is a transparent background behind this to make it more accessible color-wise.
 
 ![Hero](docs/heroimg.png)

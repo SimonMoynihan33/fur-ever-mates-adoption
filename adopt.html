@@ -25,6 +25,7 @@
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
+            <span class="sr-only">Click to toggle mobile dropdown menu</span>
             <i class="fa-solid fa-caret-down"></i>
         </label>
         <nav>
@@ -59,8 +60,9 @@
                 <textarea name="address" id="address" required></textarea>
                 <label for="post-code">Post Code</label>
                 <input type="text" name="post-code" id="post-code" class="text-input" required>
-                <h3>Preferred size of dog you could adopt</h3>
-                <div class="radio-buttons">
+                <h3>Dog size you could adopt</h3>
+                <fieldset class="radio-buttons">
+                    <legend>I would prefer</legend>
                     <div>
                         <label for="large">Large</label>
                         <input type="radio" name="dog-size" id="large" value="large" required checked>
@@ -77,7 +79,7 @@
                         <label for="any">Any</label>
                         <input type="radio" name="dog-size" id="any" value="any" required>
                     </div>
-                </div>
+                </fieldset>
                 <br>
                 <label for="extra-info">Please provide any other relevant information.
                     <br>
