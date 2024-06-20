@@ -6,7 +6,7 @@ This site contains a simple but elegant home page with reviews from previous ado
 
 ## Why Fur-Ever Mates?
 
-I chose this idea because I believe there are too many dogs seeking a home. I have 1 rescue dog who we adopted 2 years ago and it is always the route I would go before buying dogs from breeders. It is a luxury to purchase a specific dog that you want but decisions such as this sometimes result in abandonement. Many people do not know the time and care it takes to own a dog, and therefore cannot keep up with the responsibilities. 
+I chose this idea because I believe there are too many dogs seeking a home. I have 1 rescue dog who we adopted 2 years ago and it is always the route I would go before buying dogs from breeders. It is a luxury to purchase a specific dog that you want but decisions such as this can sometimes result in abandonement if paired with poor planning and unrealistic expectations. Many people do not know the time and care it takes to own a dog, and therefore cannot keep up with the responsibilities. 
 
 "Over 3,000 dogs are living in shelters and pounds across the country as “hundreds” more are on waiting lists, a new survey shows." ~ [Irish Independant, 2023](https://www.independent.ie/irish-news/over-3000-dogs-in-shelters-across-ireland-revealing-dire-situation-after-pandemic/a1809558249.html)
 
@@ -173,11 +173,13 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Future Deployment
 
+
+
 ## Bugs
 
 ### Unfixed Bugs
 
-No unfixed bugs
+This website looses some usability at width: 2000px; and above. This can be fixed with media queries in future deployments.
 
 ### Fixed Bugs
 
