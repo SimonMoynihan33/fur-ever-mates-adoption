@@ -4,6 +4,16 @@
 
 This site contains a simple but elegant home page with reviews from previous adopters, a rehoming page where you can see dogs that are currently for adoption, an about page with a contact section and a sign up form to be considered for screening.
 
+## Why Fur-Ever Mates?
+
+I chose this idea because I believe there are too many dogs seeking a home. I have 1 rescue dog who we adopted 2 years ago and it is always the route I would go before buying dogs from breeders. It is a luxury to purchase a specific dog that you want but decisions such as this sometimes result in abandonement. Many people do not know the time and care it takes to own a dog, and therefore cannot keep up with the responsibilities. 
+
+"Over 3,000 dogs are living in shelters and pounds across the country as “hundreds” more are on waiting lists, a new survey shows." ~ [Irish Independant, 2023](https://www.independent.ie/irish-news/over-3000-dogs-in-shelters-across-ireland-revealing-dire-situation-after-pandemic/a1809558249.html)
+
+This number breaks my heart as I know it does for many. Adopting dogs already in search is the only way to save many of these loyal and loving animals. 
+
+Dogs are among the most loyal creatures in the world, and they all deserve to be treated as such. 
+
 **Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are not available for adoption.
 
 ![amiresponsive](docs/amiresponsiveclip.png)
@@ -17,6 +27,7 @@ This site contains a simple but elegant home page with reviews from previous ado
 - [Features](#features)
 - [Design](#design)
 - [Testing](#testing)
+- [Future Deployment](#future-deployment)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -148,18 +159,25 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - **Landing page** Two errors were returned when passing through the official [W3C validator]()
-  ![Warnings]
-  - **Mates page** No errors were returned when passing through the official [W3C validator]()
-  - **About page** No errors were returned when passing through the official [W3C validator]()
-  - **Adopt page** No errors were returned when passing through the official [W3C validator]()
-  - **Adopt feedback page** No errors were returned when passing through the official [W3C validator]()
+  - **Landing page** Two warnings were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Findex.html)
+  ![Warnings](docs/warnings-index.html.png)
+  - These are empty headings used for icons from Font Awesome. They are in H" elements for styling purposes. It is a trivial warning. 
+  - **Mates page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fmates.html)
+  - **About page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fabout.html)
+  - **Adopt page** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsimonmoynihan33.github.io%2Ffur-ever-mates-adoption%2Fadopt.html)
+  - **Adopt feedback page** No errors were returned when passing through the official [W3C validator]
+  ![Adopt Feedback](docs/adopt-feedback-validation.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
+  ![CSS Validation](docs/css-validation.png)
+
+## Future Deployment
+
+## Bugs
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No unfixed bugs
 
 ### Fixed Bugs
 

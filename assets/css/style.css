@@ -711,6 +711,7 @@ footer {
 
 /* 2400px and above */
 @media screen and (min-width: 2400px) {
+
     #hero-image {
         height: 800px;
     }
@@ -721,5 +722,10 @@ footer {
 
     .card img {
         width: 500px;
+    }
+
+    /* Adopt page */
+    #signup {
+        font-size: 3em;
     }
 }
