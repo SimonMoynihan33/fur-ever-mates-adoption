@@ -78,9 +78,9 @@ main {
 /* Hero Section */
 #hero-image {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: aqua;
-    background: url("../images/pexels-edd1egalaxy-3628100.webp") no-repeat center center/cover;
+    background: url("../images/landing-hero.webp") no-repeat center center/cover;
 }
 
 /* Cover text styles */
@@ -103,7 +103,7 @@ main {
     text-align: center;
 }
 
-#introduction h2 {
+#introduction>h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -147,7 +147,7 @@ main {
 
 #testimonials {
     position: relative;
-    min-height: 100vh;
+    min-height: 800px;
     width: 100%;
     background: #101111;
     overflow: hidden;
@@ -326,10 +326,9 @@ section #rehoming {
 }
 
 .card img {
-    max-width: fit-content;
+    min-width: fit-content;
     max-height: 40vh;
     text-align: center;
-    transform: translateX(-20%);
 }
 
 .card-content {
@@ -420,6 +419,7 @@ main {
     background-position: 75%;
     padding: 30px 10% 0 10%;
     flex-grow: 1;
+
 }
 
 #signup-form>h2 {
@@ -436,7 +436,9 @@ main {
     color: #ffffff;
     background-color: rgba(95, 95, 95, 0.7);
     padding: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
+
 }
 
 #signup-form>h2 {
@@ -683,6 +685,10 @@ footer {
         background-color: #fafafa;
         color: #000000;
     }
+
+    .card {
+        width: 320px;
+    }
 }
 
 /* Large devices (laptop and larger 992px and up) */
@@ -691,4 +697,18 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    .card {
+        width: 400px
+    }
+}
+
+/* 2400px and above */
+@media screen and (min-width: 2400px) {
+    #hero-image {
+        height: 800px;
+    }
+
+    .card {
+        width: 500px;
+    }
 }
