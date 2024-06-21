@@ -1,20 +1,20 @@
 # Fur-Ever Mates
 
-*Fur-Ever Mates* is a dog adoption agency based in Kerry, Ireland. The goal of this site is to pair dogs currently without families to suitable and caring homes. 
+*Fur-Ever Mates* is a dog adoption agency based in Kerry, Ireland. The goal of this site is to pair dogs currently without families with suitable and caring homes. 
 
-This site contains a simple but elegant home page with reviews from previous adopters, a rehoming page where you can see dogs that are currently for adoption, an about page with a contact section and a sign up form to be considered for screening.
+This site contains a simple but elegant home page with reviews from previous adopters, a rehoming page where you can see dogs that are currently up for adoption, an about page with a contact section, and a sign-up form to be considered for screening.
 
 ## Why Fur-Ever Mates?
 
-I chose this idea because I believe there are too many dogs seeking a home. I have 1 rescue dog who we adopted 2 years ago and it is always the route I would go before buying dogs from breeders. It is a luxury to purchase a specific dog that you want but decisions such as this can sometimes result in abandonement if paired with poor planning and unrealistic expectations. Many people do not know the time and care it takes to own a dog, and therefore cannot keep up with the responsibilities. 
+I chose this idea because I believe there are too many dogs seeking a home. I have one rescue dog whom we adopted two years ago, and it is always the route I would take before buying dogs from breeders. It is a luxury to purchase a specific dog that you want, but decisions such as this can sometimes result in abandonment if paired with poor planning and unrealistic expectations. Many people do not know the time and care it takes to own a dog and, therefore, cannot keep up with the responsibilities. 
 
-"Over 3,000 dogs are living in shelters and pounds across the country as “hundreds” more are on waiting lists, a new survey shows." ~ [Irish Independant, 2023](https://www.independent.ie/irish-news/over-3000-dogs-in-shelters-across-ireland-revealing-dire-situation-after-pandemic/a1809558249.html)
+"Over 3,000 dogs are living in shelters and pounds across the country as “hundreds” more are on waiting lists, a new survey shows." ~ [Irish Independent, 2023](https://www.independent.ie/irish-news/over-3000-dogs-in-shelters-across-ireland-revealing-dire-situation-after-pandemic/a1809558249.html)
 
-This number breaks my heart as I know it does for many. Adopting dogs already in search is the only way to save many of these loyal and loving animals. 
+This number breaks my heart as I know it does for many. Adopting dogs already in search of homes is the only way to save many of these loyal and loving animals. 
 
 Dogs are among the most loyal creatures in the world, and they all deserve to be treated as such. 
 
-**Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are not available for adoption.
+**Please note:** Fur-Ever Mates is currently only an idea. You cannot as of yet use this site to adopt or foster any dogs and all dogs showcased on this site are currently not available for adoption.
 
 ![amiresponsive](docs/amiresponsiveclip.png)
 
@@ -35,28 +35,28 @@ Dogs are among the most loyal creatures in the world, and they all deserve to be
 
 ## Creation Structure
 
-Fur-Ever Mates was created using the mobile first method. This ensures the best possible experience for mobile users who make up majority of the traffic on sites. ["As of 2024, 60.67% of website traffic comes from Mobile Devices"](https://whatsthebigdata.com/mobile-internet-traffic/) ~ [whatsthebigdata.com](https://whatsthebigdata.com/).
+Fur-Ever Mates was created using the mobile-first method. This ensures the best possible experience for mobile users who make up the majority of the traffic on sites. ["As of 2024, 60.67% of website traffic comes from Mobile Devices"](https://whatsthebigdata.com/mobile-internet-traffic/) ~ [whatsthebigdata.com](https://whatsthebigdata.com/).
 
-I then worked my back via media queries (540px and up, 768px and up, 992px and up, 2400px and up). This ensures the best experience for all users.
+I then worked my way back via media queries (540px and up, 768px and up, 992px and up, 2400px and up). This ensures the best experience for all users.
 
 ## User Experience
 
 ### First Time Users
 
-New users who come to this site will already be searching for options when it comes to adopting a dog. The goal of this site is not based on impulsive decisions, rather well planned aims to adopt. Adopting a dog is a major commitment, therefore you cannot adopt by pressing a button but must apply and pass a screening process. The site is friendly to new users but does not cater to spur of the moment decisions.
+New users who come to this site will already be searching for options for adopting a dog. The goal of this site is not based on impulsive decisions, rather well planned aims to adopt. Adopting a dog is a major commitment, therefore you cannot adopt by pressing a button but must apply and pass a screening process. The site is friendly to new users but does not cater to spur of the moment decisions.
 
 #### Goals for first time users
 
-As somebody who is using this site for the first time I want to:
+As someone who is using this site for the first time, I want to:
 - Understand what the site is
 - Know how to apply
 - See what dogs are currently available
-- Be aware of how i can help in other ways if I cannot adopt
+- Be aware of how I can help in other ways if I cannot adopt
 - Know how to get in contact with the agency
 
 ### Repeat Users
 
-Fur-ever Mates thrives off of users following up. For this reason the apply page was implemented to keep in touch with aspiring owners, gathering vital information such as email, phone and information relevant when it comes to dog ownership (number of kids/other pets).
+Fur-ever Mates thrives on users following up. For this reason the apply page was implemented to keep in touch with aspiring owners, gathering vital information such as email, phone and information relevant when it comes to dog ownership (number of kids/other pets).
 
 ## Goals
 
@@ -70,7 +70,7 @@ Fur-Ever Mates aims to create a compassionate and efficient platform dedicated t
 
 ### Nav Bar
 
-The Nav Bar of the page consists of a white background, the logo and links to each individual page.
+The Nav Bar of the page consists of a white background, the logo, and links to each individual page.
 
 - *Below 768px:* On screens below 768px, the navbar condenses and the links are hidden behind a down arrow dropdown toggle. When clicked, the navbar expands vertically to show each visitable page, simultaneously showing which page you are on by highlighting your current location in red. 
 
@@ -83,7 +83,7 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 ![Logo and Nav](docs/nav-laptop.png)
 ### Hero Image 
 
-- The hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
+- The Hero image was downloaded from [Pexels](https://www.pexels.com/). The image is bright and shows four dogs looking over a wall. This is to produce a positive emotional reaction from the user.
 
 - There is a hero image set for mobile and also for devices 768px and above. 
 
@@ -93,17 +93,17 @@ The Nav Bar of the page consists of a white background, the logo and links to ea
 
 ### Introduction Section
 
-- Next there is the introduction section to the website. This is a short but descriptive overview of what our goals are as an organisation, and what we do for dogs in our care, also including a circular image of a dog being walked. 
+- Next there is the introduction section to the website. This is a short but descriptive overview of what our goals are as an organization and what we do for dogs in our care, also including a circular image of a dog being walked. 
 
-- "Check out our mates" button is displayed below this which will direct users to the mates page.
+- "Check out our mates" button is displayed below this which will direct users to the Mates page.
 
 ![Mates Button](docs/mates-button.png)
 
 ### Testimonials
 
-- Below the introduction section is a testimonials section with user reviews. This section was created with the aid of a youtube tutorial documented in the [credits](#credits) part of the readme. 
+- Below the introduction section is a Testimonials section with user reviews. This section was created with the aid of a youtube tutorial documented in the [credits](#credits) part of the readme. 
 
-In this section is a black background with three dark colored cards, a small image, red blockquotes and some text. There is also a red transparent circle in the background to add some color and styling. This section, like all others, is fully responsive. On mobiles they are displayed on top of one another, whereas on tablet there is 2 in a row and one underneath and on laptops all three are in a clean and even row. 
+In this section is a black background with three dark-colored cards, a small image, red blockquotes, and some text. There is also a red transparent circle in the background to add some color and styling. This section, like all others, is fully responsive. On mobiles they are displayed on top of one another, whereas on tablet there is 2 in a row and one underneath and on laptops all three are in a clean and even row. 
 
 ![Testimonials Laptop](docs/test-laptop.png)
 
@@ -143,7 +143,7 @@ In this section is a black background with three dark colored cards, a small ima
 ![Adopt Page](docs/adopt-page.png)
 ## Design
 
-The design of Fur-Ever Mates is a friendly and warm one, encouraging positive emotional reaction and hope. The page incorporates the main colors of white, black and splashes of red to promote association and unique identity. 
+The design of Fur-Ever Mates is friendly and warm, encouraging positive emotional reaction and hope. The page incorporates the main colors of white, black and splashes of red to promote association and unique identity. 
 
 It offers a clean and descriptive landing page, instantly telling users the purpose of the site, with reviews to highlight the satisfaction from previous adopters. 
 
@@ -154,6 +154,18 @@ The Mates page is an effective design, featuring cards displaying an image and i
 Finally, the signup page is where we wish to use vibrant and bright colors to convey a sense of happiness and hope. The red background image keeps in line with the page's theme, with a signup form including a dark background to add contrast and make the text easier to read. 
 
 ## Testing 
+
+### Manual Testing
+
+In addition to automated testing, extensive manual testing was conducted to ensure that the site functions correctly across different browsers and devices. This included checking:
+
+- Responsiveness on various screen sizes (desktop, tablet, and mobile).
+- Functionality of navigation links and buttons.
+- Form submission and validation.
+- Image loading and aspect ratios.
+- Each media link opens in new tab.
+
+Also, the final website was sent around to family and friends, none of which came back with any faults. This included 10 or more individuals on varying screen sizes. 
 
 ### Lighthouse scores
 - **Desktop**
@@ -179,6 +191,9 @@ Finally, the signup page is where we wish to use vibrant and bright colors to co
   - No errors were found when passing through the official [(Jigsaw) validator]
   
   ![CSS Validation](docs/css-validation.png)
+
+- WAVE
+  - Each page was put through [WAVE](https://wave.webaim.org/) evaluation tool and any errors found were fixed.
 
 ## Future Deployment
 
