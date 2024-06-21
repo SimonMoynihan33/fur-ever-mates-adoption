@@ -39,6 +39,31 @@ Fur-Ever Mates was created using the mobile-first method. This ensures the best 
 
 I then worked my way back via media queries (540px and up, 768px and up, 992px and up, 2400px and up). This ensures the best experience for all users.
 
+### Wireframes
+- **Landing Page on desktop**
+
+![Landing page](docs/wf-landing-desktop.png)
+
+- **Landing page with introduction on mobile**
+
+![Mobile Home page](docs/wf-landing-mobile.png)
+
+Initially, I did not plan on adding a testimonials section to the project. I decided to add this when i started to feel much more comfortable with coding, and felt i had sufficient time to do it.
+
+- **About Desktop**
+
+![About Desktop](docs/wf-about.png)
+
+**About Mobile**
+
+![About Mobile](docs/wf-about-mobile.png)
+
+In the beginning stages of my project, my rehoming section and and about section were going to be on the same page. After some thinking and replanning i decided to seperate them to give them both the attention they deserve as they are different pages with different goals.
+
+**Signup**
+
+![Signup](docs/wf-signup-form.png)
+
 ## User Experience
 
 ### First Time Users
