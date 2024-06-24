@@ -165,6 +165,19 @@ In this section is a black background with three dark-colored cards, a small ima
 
  - A sleek form on a red background with a border collie to the right, this page allows users to apply to adopt a dog currently in our care.
 
+ ### Submission page
+
+ - Custom page showing you have submitted your form with a button to bring you back to the home page.
+
+ ![Submission page](docs/adopt-submission-page.png)
+
+ ### 404 page
+
+ - Custom 404 page with a home button to tell users there is no pagewithin our site matching their search results and a button to bring them back to the home page.
+
+ ![404 Page](docs/404.png)
+
+
 ![Adopt Page](docs/adopt-page.png)
 ## Design
 
