@@ -504,7 +504,7 @@ textarea {
 }
 
 /* Return to landing page button */
-#home-button {
+.home-button {
     display: inline-block;
     text-align: center;
     padding: 8px 16px;
