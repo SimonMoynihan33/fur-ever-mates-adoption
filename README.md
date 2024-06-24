@@ -165,6 +165,8 @@ In this section is a black background with three dark-colored cards, a small ima
 
  - A sleek form on a red background with a border collie to the right, this page allows users to apply to adopt a dog currently in our care.
 
+ ![Adopt Page](docs/adopt-page.png)
+
  ### Submission page
 
  - Custom page showing you have submitted your form with a button to bring you back to the home page.
@@ -177,8 +179,6 @@ In this section is a black background with three dark-colored cards, a small ima
 
  ![404 Page](docs/404.png)
 
-
-![Adopt Page](docs/adopt-page.png)
 ## Design
 
 The design of Fur-Ever Mates is friendly and warm, encouraging positive emotional reaction and hope. The page incorporates the main colors of white, black and splashes of red to promote association and unique identity. 
