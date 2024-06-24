@@ -492,6 +492,10 @@ textarea {
     background-color: rgba(207, 207, 207, 0.9);
 }
 
+#error {
+    font-size: 1em;
+}
+
 /* Submit page */
 #submit {
     background-color: #ef462d;

@@ -229,7 +229,7 @@ Also, the final website was sent around to family and friends, none of which cam
 ![mates.html page](docs/lh-mates-mobile.png)
 ![about.html page](docs/lh-about-mobile.png)
 ![adopt.html page](docs/lh-adopt-mobile.png)
-![adopt-feedback.html page]()
+![adopt-feedback.html page](docs/lh-submitted-page.png)
 
 - There is room for improvement on mobile, mainly due to the LCP. This can  be worked on in future deployments.
 
@@ -245,7 +245,7 @@ Also, the final website was sent around to family and friends, none of which cam
   
   ![Adopt Feedback](docs/adopt-feedback-validation.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]
+  - No errors were found when passing through the official Jigsaw validator via direct input
   
   ![CSS Validation](docs/css-validation.png)
 
