@@ -22,9 +22,9 @@ Dogs are among the most loyal creatures in the world, and they all deserve to be
 
 ## Table of Contents
 
+- [Creation Structure](#creation-structure)
 - [User Experience](#user-experience)
 - [Goals](#goals)
-- [Creation Structure](#creation-structure)
 - [Features](#features)
 - [Design](#design)
 - [Testing](#testing)
@@ -54,11 +54,11 @@ Initially, I did not plan on adding a testimonials section to the project. I dec
 
 ![About Desktop](docs/wf-about.png)
 
-**About Mobile**
+- **About Mobile**
 
 ![About Mobile](docs/wf-about-mobile.png)
 
-In the beginning stages of my project, my rehoming section and and about section were going to be on the same page. After some thinking and replanning i decided to seperate them to give them both the attention they deserve as they are different pages with different goals.
+In the beginning stages of my project, my rehoming section and the about section were going to be on the same page. After some thinking and replanning i decided to seperate them to give them both the attention they deserve as they are different pages with different goals.
 
 **Signup**
 
@@ -163,7 +163,7 @@ In this section is a black background with three dark-colored cards, a small ima
 
  **Apply for screening**
 
- - A sleek form on a red background with a border collie of to the right, this page allows users to apply to adopt a dog currently in our care.
+ - A sleek form on a red background with a border collie to the right, this page allows users to apply to adopt a dog currently in our care.
 
 ![Adopt Page](docs/adopt-page.png)
 ## Design
@@ -226,6 +226,8 @@ I believe this website is already fit for usage, but improvements can always be 
 - Better usability for screen sizes above 2000px.
 - A location and map if this was a real organisation.
 - More styles to rehoming section (mates page). The design for this page is functional and attractive, but with more dogs added and more time to do so, this page would have it's own unique style, with more information about each dog and a dropdown for each to display this. Also, whichever adopt button is pressed would be sent to the server along with the form. 
+- More pages, educating pet owners on responsible pet ownership, advice and FAQ's
+- An AI bot, to answer questions put forward by users and if necessary, direct users to a member of the support team
 
 
 ## Bugs
@@ -250,7 +252,7 @@ The image was too large for the perameters I had set. Cutting and resizing the i
 
 **Testimonials**
 
-On screens larger than 1400px, the testimonials section became too large for the content beneath it. This was due to the *100vh* height i set to this section. Removing this solved the issue.
+On screens larger than 1400px, the testimonials section became too large for the content beneath it. This was due to the *100vh* height I set to this section. Removing this solved the issue.
 
 Testimonial images were at their full size when only needing to be 100x100. This issue was solved by resizing images.  
 
