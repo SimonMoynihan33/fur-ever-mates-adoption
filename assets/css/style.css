@@ -422,8 +422,9 @@ main {
     background-image: url("../images/studio-shot-cute-border-collie-dog\ \(1\).webp");
     background-size: cover;
     background-position: 75%;
-    padding: 30px 10% 0 10%;
+    padding: 30px 10% 40px 10%;
     flex-grow: 1;
+    height: auto;
 }
 
 #signup-form>h2 {
@@ -440,7 +441,6 @@ main {
     color: #ffffff;
     background-color: rgba(95, 95, 95, 0.7);
     padding: 30px;
-    margin-bottom: 30px;
     border-radius: 20px;
 
 }
