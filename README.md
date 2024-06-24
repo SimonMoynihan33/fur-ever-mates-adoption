@@ -173,7 +173,7 @@ In this section is a black background with three dark-colored cards, a small ima
 
  ### 404 page
 
- - Custom 404 page with a home button to tell users there is no pagewithin our site matching their search results and a button to bring them back to the home page.
+ - Custom 404 page with a home button to tell users there is no pagew ithin our site matching their search results and a button to bring them back to the home page.
 
  ![404 Page](docs/404.png)
 
