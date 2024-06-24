@@ -178,6 +178,15 @@ The Mates page is an effective design, featuring cards displaying an image and i
 
 Finally, the signup page is where we wish to use vibrant and bright colors to convey a sense of happiness and hope. The red background image keeps in line with the page's theme, with a signup form including a dark background to add contrast and make the text easier to read. 
 
+## Future Deployment
+
+I believe this website is already fit for usage, but improvements can always be made. In the future some things I would like to implement are: 
+- Better usability for screen sizes above 2000px.
+- A location and map if this was a real organisation.
+- More styles to rehoming section (mates page). The design for this page is functional and attractive, but with more dogs added and more time to do so, this page would have it's own unique style, with more information about each dog and a dropdown for each to display this. Also, whichever adopt button is pressed would be sent to the server along with the form. 
+- More pages, educating pet owners on responsible pet ownership, advice and FAQ's
+- An AI bot, to answer questions put forward by users and if necessary, direct users to a member of the support team
+
 ## Testing 
 
 ### Manual Testing
@@ -201,6 +210,16 @@ Also, the final website was sent around to family and friends, none of which cam
 ![adopt.html page](docs/adopt-page-score.png)
 ![adopt-feedback.html page](docs/adopt-feedback-score.png)
 
+- **Mobile**
+
+![index.html page](docs/lh-index-mobile.png)
+![mates.html page](docs/lh-mates-mobile.png)
+![about.html page](docs/lh-about-mobile.png)
+![adopt.html page](docs/lh-adopt-mobile.png)
+![adopt-feedback.html page]()
+
+- There is room for improvement on mobile, mainly due to the LCP. This can  be worked on in future deployments.
+
 
 ### Validator Testing 
 
@@ -219,16 +238,6 @@ Also, the final website was sent around to family and friends, none of which cam
 
 - WAVE
   - Each page was put through [WAVE](https://wave.webaim.org/) evaluation tool and any errors found were fixed.
-
-## Future Deployment
-
-I believe this website is already fit for usage, but improvements can always be made. In the future some things I would like to implement are: 
-- Better usability for screen sizes above 2000px.
-- A location and map if this was a real organisation.
-- More styles to rehoming section (mates page). The design for this page is functional and attractive, but with more dogs added and more time to do so, this page would have it's own unique style, with more information about each dog and a dropdown for each to display this. Also, whichever adopt button is pressed would be sent to the server along with the form. 
-- More pages, educating pet owners on responsible pet ownership, advice and FAQ's
-- An AI bot, to answer questions put forward by users and if necessary, direct users to a member of the support team
-
 
 ## Bugs
 
